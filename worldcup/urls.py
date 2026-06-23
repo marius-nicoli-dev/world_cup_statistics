@@ -1,0 +1,36 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("games/", views.games_list, name="games_list"),
+    path("games/filter/", views.games_filter, name="games_filter"),
+
+    path(
+        "country/<int:country_id>/",
+        views.country_detail,
+        name="country_detail"
+    ),
+
+    path(
+        "country/<int:country_id>/<str:result_type>/",
+        views.country_detail,
+        name="country_detail_filtered"
+    ),
+
+    path(
+        "continent/<int:continent_id>/vs/<int:opponent_continent_id>/<str:result_type>/",
+        views.continent_detail,
+        name="continent_detail_vs_result"
+    ),
+
+    path(
+        "continent/<int:continent_id>/vs/<int:opponent_continent_id>/",
+        views.continent_detail,
+        name="continent_detail_vs"
+    ),
+
+    path("continent/<int:continent_id>/", 
+         views.continent_detail, 
+         name="continent_detail"
+    ),
+]

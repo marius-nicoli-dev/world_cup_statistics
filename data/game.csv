@@ -1,0 +1,1037 @@
+id,name_country_1,name_country_2,goals_country_1,goals_country_2,phase,phase_rank,date,home_city,home_country,world_cup,wikipedia
+1,Belgium,United States,0,3,group,last_13,1930-07-13,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+2,France,Mexico,4,1,group,last_13,1930-07-13,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+3,Brazil,Yugoslavia,1,2,group,last_13,1930-07-14,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+4,Peru,Romania,1,3,group,last_13,1930-07-14,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+5,Argentina,France,1,0,group,last_13,1930-07-15,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+6,Chile,Mexico,3,0,group,last_13,1930-07-16,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+7,Bolivia,Yugoslavia,0,4,group,last_13,1930-07-17,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+8,Paraguay,United States,0,3,group,last_13,1930-07-17,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+9,Uruguay,Peru,1,0,group,last_13,1930-07-18,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+10,Argentina,Mexico,6,3,group,last_13,1930-07-19,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+11,Chile,France,1,0,group,last_13,1930-07-19,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+12,Belgium,Paraguay,0,1,group,last_13,1930-07-20,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+13,Bolivia,Brazil,0,4,group,last_13,1930-07-20,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+14,Uruguay,Romania,4,0,group,last_13,1930-07-21,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+15,Argentina,Chile,3,1,group,last_13,1930-07-22,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+16,Argentina,United States,6,1,semifinal,last_4,1930-07-26,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+17,Uruguay,Yugoslavia,6,1,semifinal,last_4,1930-07-27,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+18,Uruguay,Argentina,4,2,final,last_2,1930-07-30,Montevideo,Uruguay,1930,https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+19,Argentina,Sweden,2,3,round_of_16,last_16,1934-05-27,Bologna,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+20,Austria,France,3,2,round_of_16,last_16,1934-05-27,Turin,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+21,Belgium,Germany,2,5,round_of_16,last_16,1934-05-27,Florence,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+22,Brazil,Spain,1,3,round_of_16,last_16,1934-05-27,Genoa,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+23,Czechoslovakia,Romania,2,1,round_of_16,last_16,1934-05-27,Trieste,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+24,Egypt,Hungary,2,4,round_of_16,last_16,1934-05-27,Naples,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+25,Italy,United States,7,1,round_of_16,last_16,1934-05-27,Rome,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+26,Netherlands,Switzerland,2,3,round_of_16,last_16,1934-05-27,Milan,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+27,Austria,Hungary,2,1,quarterfinal,last_8,1934-05-31,Bologna,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+28,Czechoslovakia,Switzerland,3,2,quarterfinal,last_8,1934-05-31,Turin,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+29,Germany,Sweden,2,1,quarterfinal,last_8,1934-05-31,Milan,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+30,Italy,Spain,1,1,quarterfinal,last_8,1934-05-31,Florence,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+31,Italy,Spain,1,0,quarterfinal,last_8,1934-06-01,Florence,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+32,Czechoslovakia,Germany,3,1,semifinal,last_4,1934-06-03,Rome,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+33,Italy,Austria,1,0,semifinal,last_4,1934-06-03,Milan,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+34,Austria,Germany,2,3,final_3_4,last_3_4,1934-06-07,Naples,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+35,Italy,Czechoslovakia,2,1,final,last_2,1934-06-10,Rome,Italy,1934,https://en.wikipedia.org/wiki/1934_FIFA_World_Cup
+36,Germany,Switzerland,1,1,round_of_16,last_16,1938-06-04,Paris,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+37,Brazil,Poland,6,5,round_of_16,last_16,1938-06-05,Strasbourg,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+38,Cuba,Romania,3,3,round_of_16,last_16,1938-06-05,Toulouse,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+39,Czechoslovakia,Netherlands,3,0,round_of_16,last_16,1938-06-05,Le Havre,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+40,France,Belgium,3,1,round_of_16,last_16,1938-06-05,Colombes,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+41,Hungary,Indonesia,6,0,round_of_16,last_16,1938-06-05,Reims,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+42,Italy,Norway,2,1,round_of_16,last_16,1938-06-05,Marseille,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+43,Cuba,Romania,2,1,round_of_16,last_16,1938-06-09,Toulouse,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+44,Germany,Switzerland,2,4,round_of_16,last_16,1938-06-09,Paris,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+45,Brazil,Czechoslovakia,1,1,quarterfinal,last_8,1938-06-12,Bordeaux,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+46,Cuba,Sweden,0,8,quarterfinal,last_8,1938-06-12,Antibes,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+47,France,Italy,1,3,quarterfinal,last_8,1938-06-12,Colombes,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+48,Hungary,Switzerland,2,0,quarterfinal,last_8,1938-06-12,Lille,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+49,Brazil,Czechoslovakia,2,1,quarterfinal,last_8,1938-06-14,Bordeaux,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+50,Brazil,Italy,1,2,semifinal,last_4,1938-06-16,Marseille,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+51,Hungary,Sweden,5,1,semifinal,last_4,1938-06-16,Paris,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+52,Brazil,Sweden,4,2,final_3_4,last_3_4,1938-06-19,Bordeaux,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+53,Hungary,Italy,2,4,final,last_2,1938-06-19,Colombes,France,1938,https://en.wikipedia.org/wiki/1938_FIFA_World_Cup
+54,Brazil,Mexico,4,0,group,last_13,1950-06-24,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+55,Chile,England,0,2,group,last_13,1950-06-25,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+56,Italy,Sweden,2,3,group,last_13,1950-06-25,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+57,Spain,United States,3,1,group,last_13,1950-06-25,Curitiba,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+58,Switzerland,Yugoslavia,0,3,group,last_13,1950-06-25,Belo Horizonte,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+59,Brazil,Switzerland,2,2,group,last_13,1950-06-28,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+60,Mexico,Yugoslavia,1,4,group,last_13,1950-06-28,Porto Alegre,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+61,Chile,Spain,0,2,group,last_13,1950-06-29,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+62,England,United States,0,1,group,last_13,1950-06-29,Belo Horizonte,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+63,Paraguay,Sweden,2,2,group,last_13,1950-06-29,Curitiba,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+64,Brazil,Yugoslavia,2,0,group,last_13,1950-07-01,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+65,Bolivia,Uruguay,0,8,group,last_13,1950-07-02,Belo Horizonte,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+66,Chile,United States,5,2,group,last_13,1950-07-02,Recife,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+67,England,Spain,0,1,group,last_13,1950-07-02,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+68,Italy,Paraguay,2,0,group,last_13,1950-07-02,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+69,Mexico,Switzerland,1,2,group,last_13,1950-07-02,Porto Alegre,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+70,Brazil,Sweden,7,1,final_group,last_4,1950-07-09,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+71,Spain,Uruguay,2,2,final_group,last_4,1950-07-09,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+72,Brazil,Spain,6,1,final_group,last_4,1950-07-13,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+73,Sweden,Uruguay,2,3,final_group,last_4,1950-07-13,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+74,Brazil,Uruguay,1,2,final_group,last_2,1950-07-16,Rio de Janeiro,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+75,Spain,Sweden,1,3,final_group,last_4,1950-07-16,São Paulo,Brazil,1950,https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+76,Austria,Scotland,1,0,group,last_16,1954-06-16,Zürich,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+77,Brazil,Mexico,5,0,group,last_16,1954-06-16,Geneva,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+78,Czechoslovakia,Uruguay,0,2,group,last_16,1954-06-16,Bern,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+79,France,Yugoslavia,0,1,group,last_16,1954-06-16,Lausanne,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+80,Belgium,England,4,4,group,last_16,1954-06-17,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+81,Germany,Turkey,4,1,group,last_16,1954-06-17,Bern,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+82,Hungary,South Korea,9,0,group,last_16,1954-06-17,Zürich,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+83,Switzerland,Italy,2,1,group,last_16,1954-06-17,Lausanne,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+84,Austria,Czechoslovakia,5,0,group,last_16,1954-06-19,Zürich,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+85,Brazil,Yugoslavia,1,1,group,last_16,1954-06-19,Lausanne,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+86,France,Mexico,3,2,group,last_16,1954-06-19,Geneva,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+87,Scotland,Uruguay,0,7,group,last_16,1954-06-19,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+88,Belgium,Italy,1,4,group,last_16,1954-06-20,Lugano,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+89,Germany,Hungary,3,8,group,last_16,1954-06-20,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+90,South Korea,Turkey,0,7,group,last_16,1954-06-20,Geneva,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+91,Switzerland,England,0,2,group,last_16,1954-06-20,Bern,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+92,Germany,Turkey,7,2,group_playoff,last_16,1954-06-23,Zürich,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+93,Switzerland,Italy,4,1,group_playoff,last_16,1954-06-23,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+94,England,Uruguay,2,4,quarterfinal,last_8,1954-06-26,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+95,Switzerland,Austria,5,7,quarterfinal,last_8,1954-06-26,Lausanne,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+96,Brazil,Hungary,2,4,quarterfinal,last_8,1954-06-27,Bern,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+97,Germany,Yugoslavia,2,0,quarterfinal,last_8,1954-06-27,Geneva,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+98,Austria,Germany,1,6,semifinal,last_4,1954-06-30,Basel,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+99,Hungary,Uruguay,4,2,semifinal,last_4,1954-06-30,Lausanne,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+100,Austria,Uruguay,3,1,final_3_4,last_3_4,1954-07-03,Zürich,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+101,Germany,Hungary,3,2,final,last_2,1954-07-04,Bern,Switzerland,1954,https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+102,Argentina,Germany,1,3,group,last_16,1958-06-08,Malmö,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+103,Austria,Brazil,0,3,group,last_16,1958-06-08,Uddevalla,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+104,Czechoslovakia,Northern Ireland,0,1,group,last_16,1958-06-08,Halmstad,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+105,England,Russia,2,2,group,last_16,1958-06-08,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+106,France,Paraguay,7,3,group,last_16,1958-06-08,Norrköping,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+107,Hungary,Wales,1,1,group,last_16,1958-06-08,Sandviken,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+108,Scotland,Yugoslavia,1,1,group,last_16,1958-06-08,Västerås,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+109,Sweden,Mexico,3,0,group,last_16,1958-06-08,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+110,Argentina,Northern Ireland,3,1,group,last_16,1958-06-11,Halmstad,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+111,Austria,Russia,0,2,group,last_16,1958-06-11,Borås,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+112,Brazil,England,0,0,group,last_16,1958-06-11,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+113,Czechoslovakia,Germany,2,2,group,last_16,1958-06-11,Helsingborg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+114,France,Yugoslavia,2,3,group,last_16,1958-06-11,Västerås,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+115,Mexico,Wales,1,1,group,last_16,1958-06-11,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+116,Paraguay,Scotland,3,2,group,last_16,1958-06-11,Norrköping,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+117,Sweden,Hungary,2,1,group,last_16,1958-06-12,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+118,Argentina,Czechoslovakia,1,6,group,last_16,1958-06-15,Helsingborg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+119,Austria,England,2,2,group,last_16,1958-06-15,Borås,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+120,Brazil,Russia,2,0,group,last_16,1958-06-15,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+121,France,Scotland,2,1,group,last_16,1958-06-15,Örebro,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+122,Germany,Northern Ireland,2,2,group,last_16,1958-06-15,Malmö,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+123,Hungary,Mexico,4,0,group,last_16,1958-06-15,Sandviken,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+124,Paraguay,Yugoslavia,3,3,group,last_16,1958-06-15,Eskilstuna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+125,Sweden,Wales,0,0,group,last_16,1958-06-15,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+126,Czechoslovakia,Northern Ireland,1,2,group_playoff,last_16,1958-06-17,Malmö,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+127,England,Russia,0,1,group_playoff,last_16,1958-06-17,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+128,Hungary,Wales,1,2,group_playoff,last_16,1958-06-17,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+129,Brazil,Wales,1,0,quarterfinal,last_8,1958-06-19,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+130,France,Northern Ireland,4,0,quarterfinal,last_8,1958-06-19,Norrköping,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+131,Germany,Yugoslavia,1,0,quarterfinal,last_8,1958-06-19,Malmö,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+132,Sweden,Russia,2,0,quarterfinal,last_8,1958-06-19,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+133,Brazil,France,5,2,semifinal,last_4,1958-06-24,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+134,Sweden,Germany,3,1,semifinal,last_4,1958-06-24,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+135,France,Germany,6,3,final_3_4,last_3_4,1958-06-28,Gothenburg,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+136,Sweden,Brazil,2,5,final,last_2,1958-06-29,Solna,Sweden,1958,https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+137,Argentina,Bulgaria,1,0,group,last_16,1962-05-30,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+138,Brazil,Mexico,2,0,group,last_16,1962-05-30,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+139,Chile,Switzerland,3,1,group,last_16,1962-05-30,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+140,Colombia,Uruguay,1,2,group,last_16,1962-05-30,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+141,Czechoslovakia,Spain,1,0,group,last_16,1962-05-31,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+142,England,Hungary,1,2,group,last_16,1962-05-31,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+143,Germany,Italy,0,0,group,last_16,1962-05-31,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+144,Russia,Yugoslavia,2,0,group,last_16,1962-05-31,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+145,Argentina,England,1,3,group,last_16,1962-06-02,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+146,Brazil,Czechoslovakia,0,0,group,last_16,1962-06-02,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+147,Chile,Italy,2,0,group,last_16,1962-06-02,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+148,Uruguay,Yugoslavia,1,3,group,last_16,1962-06-02,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+149,Bulgaria,Hungary,1,6,group,last_16,1962-06-03,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+150,Colombia,Russia,4,4,group,last_16,1962-06-03,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+151,Germany,Switzerland,2,1,group,last_16,1962-06-03,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+152,Mexico,Spain,0,1,group,last_16,1962-06-03,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+153,Argentina,Hungary,0,0,group,last_16,1962-06-06,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+154,Brazil,Spain,2,1,group,last_16,1962-06-06,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+155,Chile,Germany,0,2,group,last_16,1962-06-06,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+156,Russia,Uruguay,2,1,group,last_16,1962-06-06,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+157,Bulgaria,England,0,0,group,last_16,1962-06-07,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+158,Colombia,Yugoslavia,0,5,group,last_16,1962-06-07,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+159,Czechoslovakia,Mexico,1,3,group,last_16,1962-06-07,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+160,Italy,Switzerland,3,0,group,last_16,1962-06-07,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+161,Brazil,England,3,1,quarterfinal,last_8,1962-06-10,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+162,Chile,Russia,2,1,quarterfinal,last_8,1962-06-10,Arica,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+163,Czechoslovakia,Hungary,1,0,quarterfinal,last_8,1962-06-10,Rancagua,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+164,Germany,Yugoslavia,0,1,quarterfinal,last_8,1962-06-10,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+165,Chile,Brazil,2,4,semifinal,last_4,1962-06-13,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+166,Czechoslovakia,Yugoslavia,3,1,semifinal,last_4,1962-06-13,Viña del Mar,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+167,Chile,Yugoslavia,1,0,final_3_4,last_3_4,1962-06-16,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+168,Brazil,Czechoslovakia,3,1,final,last_2,1962-06-17,Santiago,Chile,1962,https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+169,England,Uruguay,0,0,group,last_16,1966-07-11,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+170,Brazil,Bulgaria,2,0,group,last_16,1966-07-12,Liverpool,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+171,Germany,Switzerland,5,0,group,last_16,1966-07-12,Sheffield,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+172,North Korea,Russia,0,3,group,last_16,1966-07-12,Middlesbrough,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+173,Argentina,Spain,2,1,group,last_16,1966-07-13,Birmingham,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+174,Chile,Italy,0,2,group,last_16,1966-07-13,Sunderland,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+175,France,Mexico,1,1,group,last_16,1966-07-13,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+176,Hungary,Portugal,1,3,group,last_16,1966-07-13,Manchester,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+177,Brazil,Hungary,1,3,group,last_16,1966-07-15,Liverpool,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+178,Chile,North Korea,1,1,group,last_16,1966-07-15,Middlesbrough,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+179,France,Uruguay,1,2,group,last_16,1966-07-15,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+180,Spain,Switzerland,2,1,group,last_16,1966-07-15,Sheffield,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+181,Argentina,Germany,0,0,group,last_16,1966-07-16,Birmingham,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+182,Bulgaria,Portugal,0,3,group,last_16,1966-07-16,Manchester,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+183,England,Mexico,2,0,group,last_16,1966-07-16,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+184,Italy,Russia,0,1,group,last_16,1966-07-16,Sunderland,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+185,Argentina,Switzerland,2,0,group,last_16,1966-07-19,Sheffield,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+186,Brazil,Portugal,1,3,group,last_16,1966-07-19,Liverpool,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+187,Italy,North Korea,0,1,group,last_16,1966-07-19,Middlesbrough,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+188,Mexico,Uruguay,0,0,group,last_16,1966-07-19,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+189,Bulgaria,Hungary,1,3,group,last_16,1966-07-20,Manchester,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+190,Chile,Russia,1,2,group,last_16,1966-07-20,Sunderland,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+191,England,France,2,0,group,last_16,1966-07-20,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+192,Germany,Spain,2,1,group,last_16,1966-07-20,Birmingham,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+193,England,Argentina,1,0,quarterfinal,last_8,1966-07-23,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+194,Germany,Uruguay,4,0,quarterfinal,last_8,1966-07-23,Sheffield,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+195,Hungary,Russia,1,2,quarterfinal,last_8,1966-07-23,Sunderland,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+196,North Korea,Portugal,3,5,quarterfinal,last_8,1966-07-23,Liverpool,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+197,Germany,Russia,2,1,semifinal,last_4,1966-07-25,Liverpool,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+198,England,Portugal,2,1,semifinal,last_4,1966-07-26,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+199,Portugal,Russia,2,1,final_3_4,last_3_4,1966-07-28,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+200,England,Germany,4,2,final,last_2,1966-07-30,London,England,1966,https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+201,Mexico,Russia,0,0,group,last_16,1970-05-31,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+202,Bulgaria,Peru,2,3,group,last_16,1970-06-02,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+203,England,Romania,1,0,group,last_16,1970-06-02,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+204,Israel,Uruguay,0,2,group,last_16,1970-06-02,Puebla,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+205,Belgium,El Salvador,3,0,group,last_16,1970-06-03,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+206,Brazil,Czechoslovakia,4,1,group,last_16,1970-06-03,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+207,Germany,Morocco,2,1,group,last_16,1970-06-03,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+208,Italy,Sweden,1,0,group,last_16,1970-06-03,Toluca,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+209,Belgium,Russia,1,4,group,last_16,1970-06-06,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+210,Czechoslovakia,Romania,1,2,group,last_16,1970-06-06,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+211,Italy,Uruguay,0,0,group,last_16,1970-06-06,Puebla,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+212,Morocco,Peru,0,3,group,last_16,1970-06-06,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+213,Brazil,England,1,0,group,last_16,1970-06-07,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+214,Bulgaria,Germany,2,5,group,last_16,1970-06-07,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+215,Israel,Sweden,1,1,group,last_16,1970-06-07,Toluca,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+216,Mexico,El Salvador,4,0,group,last_16,1970-06-07,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+217,Brazil,Romania,3,2,group,last_16,1970-06-10,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+218,El Salvador,Russia,0,2,group,last_16,1970-06-10,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+219,Germany,Peru,3,1,group,last_16,1970-06-10,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+220,Sweden,Uruguay,1,0,group,last_16,1970-06-10,Puebla,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+221,Bulgaria,Morocco,1,1,group,last_16,1970-06-11,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+222,Czechoslovakia,England,0,1,group,last_16,1970-06-11,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+223,Israel,Italy,0,0,group,last_16,1970-06-11,Toluca,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+224,Mexico,Belgium,1,0,group,last_16,1970-06-11,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+225,Brazil,Peru,4,2,quarterfinal,last_8,1970-06-14,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+226,England,Germany,2,3,quarterfinal,last_8,1970-06-14,León,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+227,Mexico,Italy,1,4,quarterfinal,last_8,1970-06-14,Toluca,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+228,Russia,Uruguay,0,1,quarterfinal,last_8,1970-06-14,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+229,Brazil,Uruguay,3,1,semifinal,last_4,1970-06-17,Guadalajara,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+230,Germany,Italy,3,4,semifinal,last_4,1970-06-17,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+231,Germany,Uruguay,1,0,final_3_4,last_3_4,1970-06-20,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+232,Brazil,Italy,4,1,final,last_2,1970-06-21,Mexico City,Mexico,1970,https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+233,Brazil,Yugoslavia,0,0,group,last_16,1974-06-13,Frankfurt,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+234,DR Congo,Scotland,0,2,group,last_16,1974-06-14,Dortmund,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+235,German DR,Australia,2,0,group,last_16,1974-06-14,Hamburg,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+236,Germany,Chile,1,0,group,last_16,1974-06-14,Berlin,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+237,Italy,Haiti,3,1,group,last_16,1974-06-15,Munich,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+238,Poland,Argentina,3,2,group,last_16,1974-06-15,Stuttgart,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+239,Sweden,Bulgaria,0,0,group,last_16,1974-06-15,Düsseldorf,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+240,Uruguay,Netherlands,0,2,group,last_16,1974-06-15,Hanover,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+241,Chile,German DR,1,1,group,last_16,1974-06-18,Berlin,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+242,Germany,Australia,3,0,group,last_16,1974-06-18,Hamburg,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+243,Scotland,Brazil,0,0,group,last_16,1974-06-18,Frankfurt,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+244,Yugoslavia,DR Congo,9,0,group,last_16,1974-06-18,Gelsenkirchen,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+245,Argentina,Italy,1,1,group,last_16,1974-06-19,Stuttgart,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+246,Bulgaria,Uruguay,1,1,group,last_16,1974-06-19,Hanover,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+247,Haiti,Poland,0,7,group,last_16,1974-06-19,Munich,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+248,Netherlands,Sweden,0,0,group,last_16,1974-06-19,Dortmund,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+249,Australia,Chile,0,0,group,last_16,1974-06-22,Berlin,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+250,DR Congo,Brazil,0,3,group,last_16,1974-06-22,Gelsenkirchen,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+251,Germany,German DR,0,1,group,last_16,1974-06-22,Hamburg,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+252,Scotland,Yugoslavia,1,1,group,last_16,1974-06-22,Frankfurt,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+253,Argentina,Haiti,4,1,group,last_16,1974-06-23,Munich,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+254,Bulgaria,Netherlands,1,4,group,last_16,1974-06-23,Dortmund,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+255,Poland,Italy,2,1,group,last_16,1974-06-23,Stuttgart,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+256,Sweden,Uruguay,3,0,group,last_16,1974-06-23,Düsseldorf,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+257,Brazil,German DR,1,0,group_phase_2,last_8,1974-06-26,Hanover,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+258,Germany,Yugoslavia,2,0,group_phase_2,last_8,1974-06-26,Düsseldorf,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+259,Netherlands,Argentina,4,0,group_phase_2,last_8,1974-06-26,Gelsenkirchen,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+260,Sweden,Poland,0,1,group_phase_2,last_8,1974-06-26,Stuttgart,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+261,Argentina,Brazil,1,2,group_phase_2,last_8,1974-06-30,Hanover,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+262,German DR,Netherlands,0,2,group_phase_2,last_8,1974-06-30,Gelsenkirchen,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+263,Germany,Sweden,4,2,group_phase_2,last_8,1974-06-30,Düsseldorf,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+264,Poland,Yugoslavia,2,1,group_phase_2,last_8,1974-06-30,Frankfurt,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+265,Argentina,German DR,1,1,group_phase_2,last_8,1974-07-03,Gelsenkirchen,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+266,Germany,Poland,1,0,group_phase_2,last_8,1974-07-03,Frankfurt,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+267,Netherlands,Brazil,2,0,group_phase_2,last_8,1974-07-03,Dortmund,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+268,Sweden,Yugoslavia,2,1,group_phase_2,last_8,1974-07-03,Düsseldorf,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+269,Brazil,Poland,0,1,final_3_4,last_3_4,1974-07-06,Munich,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+270,Germany,Netherlands,2,1,final,last_2,1974-07-07,Munich,Germany,1974,https://en.wikipedia.org/wiki/1974_FIFA_World_Cup
+271,Germany,Poland,0,0,group,last_16,1978-06-01,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+272,Argentina,Hungary,2,1,group,last_16,1978-06-02,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+273,France,Italy,1,2,group,last_16,1978-06-02,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+274,Mexico,Tunisia,1,3,group,last_16,1978-06-02,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+275,Austria,Spain,2,1,group,last_16,1978-06-03,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+276,Brazil,Sweden,1,1,group,last_16,1978-06-03,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+277,Iran,Netherlands,0,3,group,last_16,1978-06-03,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+278,Peru,Scotland,3,1,group,last_16,1978-06-03,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+279,Argentina,France,2,1,group,last_16,1978-06-06,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+280,Germany,Mexico,6,0,group,last_16,1978-06-06,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+281,Hungary,Italy,1,3,group,last_16,1978-06-06,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+282,Poland,Tunisia,1,0,group,last_16,1978-06-06,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+283,Austria,Sweden,1,0,group,last_16,1978-06-07,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+284,Brazil,Spain,0,0,group,last_16,1978-06-07,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+285,Iran,Scotland,1,1,group,last_16,1978-06-07,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+286,Netherlands,Peru,0,0,group,last_16,1978-06-07,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+287,Argentina,Italy,0,1,group,last_16,1978-06-10,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+288,France,Hungary,3,1,group,last_16,1978-06-10,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+289,Germany,Tunisia,0,0,group,last_16,1978-06-10,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+290,Mexico,Poland,1,3,group,last_16,1978-06-10,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+291,Austria,Brazil,0,1,group,last_16,1978-06-11,Mar del Plata,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+292,Iran,Peru,1,4,group,last_16,1978-06-11,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+293,Netherlands,Scotland,2,3,group,last_16,1978-06-11,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+294,Spain,Sweden,1,0,group,last_16,1978-06-11,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+295,Argentina,Poland,2,0,group_phase_2,last_8,1978-06-14,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+296,Austria,Netherlands,1,5,group_phase_2,last_8,1978-06-14,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+297,Brazil,Peru,3,0,group_phase_2,last_8,1978-06-14,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+298,Germany,Italy,0,0,group_phase_2,last_8,1978-06-14,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+299,Argentina,Brazil,0,0,group_phase_2,last_8,1978-06-18,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+300,Austria,Italy,0,1,group_phase_2,last_8,1978-06-18,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+301,Germany,Netherlands,2,2,group_phase_2,last_8,1978-06-18,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+302,Peru,Poland,0,1,group_phase_2,last_8,1978-06-18,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+303,Argentina,Peru,6,0,group_phase_2,last_8,1978-06-21,Rosario,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+304,Austria,Germany,3,2,group_phase_2,last_8,1978-06-21,Córdoba,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+305,Brazil,Poland,3,1,group_phase_2,last_8,1978-06-21,Mendoza,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+306,Italy,Netherlands,1,2,group_phase_2,last_8,1978-06-21,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+307,Brazil,Italy,2,1,final_3_4,last_3_4,1978-06-24,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+308,Argentina,Netherlands,3,1,final,last_2,1978-06-25,Buenos Aires,Argentina,1978,https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+309,Argentina,Belgium,0,1,group,last_24,1982-06-13,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+310,Brazil,Russia,2,1,group,last_24,1982-06-14,Seville,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+311,Italy,Poland,0,0,group,last_24,1982-06-14,Vigo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+312,Hungary,El Salvador,10,1,group,last_24,1982-06-15,Elche,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+313,Peru,Cameroon,0,0,group,last_24,1982-06-15,A Coruña,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+314,Scotland,New Zealand,5,2,group,last_24,1982-06-15,Málaga,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+315,England,France,3,1,group,last_24,1982-06-16,Bilbao,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+316,Germany,Algeria,1,2,group,last_24,1982-06-16,Gijón,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+317,Spain,Honduras,1,1,group,last_24,1982-06-16,Valencia,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+318,Chile,Austria,0,1,group,last_24,1982-06-17,Oviedo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+319,Czechoslovakia,Kuwait,1,1,group,last_24,1982-06-17,Valladolid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+320,Yugoslavia,Northern Ireland,0,0,group,last_24,1982-06-17,Zaragoza,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+321,Argentina,Hungary,4,1,group,last_24,1982-06-18,Alicante,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+322,Brazil,Scotland,4,1,group,last_24,1982-06-18,Seville,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+323,Italy,Peru,1,1,group,last_24,1982-06-18,Vigo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+324,Belgium,El Salvador,1,0,group,last_24,1982-06-19,Elche,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+325,Poland,Cameroon,0,0,group,last_24,1982-06-19,A Coruña,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+326,Russia,New Zealand,3,0,group,last_24,1982-06-19,Málaga,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+327,England,Czechoslovakia,2,0,group,last_24,1982-06-20,Bilbao,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+328,Germany,Chile,4,1,group,last_24,1982-06-20,Gijón,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+329,Spain,Yugoslavia,2,1,group,last_24,1982-06-20,Valencia,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+330,Algeria,Austria,0,2,group,last_24,1982-06-21,Oviedo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+331,France,Kuwait,4,1,group,last_24,1982-06-21,Valladolid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+332,Honduras,Northern Ireland,1,1,group,last_24,1982-06-21,Zaragoza,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+333,Belgium,Hungary,1,1,group,last_24,1982-06-22,Elche,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+334,Poland,Peru,5,1,group,last_24,1982-06-22,A Coruña,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+335,Russia,Scotland,2,2,group,last_24,1982-06-22,Málaga,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+336,Argentina,El Salvador,2,0,group,last_24,1982-06-23,Alicante,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+337,Brazil,New Zealand,4,0,group,last_24,1982-06-23,Seville,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+338,Italy,Cameroon,1,1,group,last_24,1982-06-23,Vigo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+339,Algeria,Chile,3,2,group,last_24,1982-06-24,Oviedo,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+340,France,Czechoslovakia,1,1,group,last_24,1982-06-24,Valladolid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+341,Honduras,Yugoslavia,0,1,group,last_24,1982-06-24,Zaragoza,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+342,England,Kuwait,1,0,group,last_24,1982-06-25,Bilbao,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+343,Germany,Austria,1,0,group,last_24,1982-06-25,Gijón,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+344,Spain,Northern Ireland,0,1,group,last_24,1982-06-25,Valencia,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+345,Austria,France,0,1,group_phase_2,last_12,1982-06-28,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+346,Poland,Belgium,3,0,group_phase_2,last_12,1982-06-28,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+347,Germany,England,0,0,group_phase_2,last_12,1982-06-29,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+348,Italy,Argentina,2,1,group_phase_2,last_12,1982-06-29,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+349,Austria,Northern Ireland,2,2,group_phase_2,last_12,1982-07-01,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+350,Belgium,Russia,0,1,group_phase_2,last_12,1982-07-01,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+351,Argentina,Brazil,1,3,group_phase_2,last_12,1982-07-02,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+352,Spain,Germany,1,2,group_phase_2,last_12,1982-07-02,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+353,France,Northern Ireland,4,1,group_phase_2,last_12,1982-07-04,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+354,Poland,Russia,0,0,group_phase_2,last_12,1982-07-04,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+355,Italy,Brazil,3,2,group_phase_2,last_12,1982-07-05,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+356,Spain,England,0,0,group_phase_2,last_12,1982-07-05,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+357,Germany,France,3,3,semifinal,last_4,1982-07-08,Seville,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+358,Poland,Italy,0,2,semifinal,last_4,1982-07-08,Barcelona,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+359,Poland,France,3,2,final_3_4,last_3_4,1982-07-10,Alicante,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+360,Italy,Germany,3,1,final,last_2,1982-07-11,Madrid,Spain,1982,https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+361,Bulgaria,Italy,1,1,group,last_24,1986-05-31,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+362,Canada,France,0,1,group,last_24,1986-06-01,León,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+363,Spain,Brazil,0,1,group,last_24,1986-06-01,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+364,Argentina,South Korea,3,1,group,last_24,1986-06-02,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+365,Morocco,Poland,0,0,group,last_24,1986-06-02,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+366,Russia,Hungary,6,0,group,last_24,1986-06-02,Irapuato,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+367,Algeria,Northern Ireland,1,1,group,last_24,1986-06-03,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+368,Mexico,Belgium,2,1,group,last_24,1986-06-03,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+369,Portugal,England,1,0,group,last_24,1986-06-03,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+370,Paraguay,Iraq,1,0,group,last_24,1986-06-04,Toluca,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+371,Scotland,Denmark,0,1,group,last_24,1986-06-04,Nezahualcóyotl,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+372,Uruguay,Germany,1,1,group,last_24,1986-06-04,Querétaro,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+373,France,Russia,1,1,group,last_24,1986-06-05,León,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+374,Italy,Argentina,1,1,group,last_24,1986-06-05,Puebla,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+375,South Korea,Bulgaria,1,1,group,last_24,1986-06-05,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+376,Brazil,Algeria,1,0,group,last_24,1986-06-06,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+377,England,Morocco,0,0,group,last_24,1986-06-06,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+378,Hungary,Canada,2,0,group,last_24,1986-06-06,Irapuato,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+379,Mexico,Paraguay,1,1,group,last_24,1986-06-07,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+380,Northern Ireland,Spain,1,2,group,last_24,1986-06-07,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+381,Poland,Portugal,1,0,group,last_24,1986-06-07,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+382,Denmark,Uruguay,6,1,group,last_24,1986-06-08,Nezahualcóyotl,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+383,Germany,Scotland,2,1,group,last_24,1986-06-08,Querétaro,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+384,Iraq,Belgium,1,2,group,last_24,1986-06-08,Toluca,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+385,Hungary,France,0,3,group,last_24,1986-06-09,León,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+386,Russia,Canada,2,0,group,last_24,1986-06-09,Irapuato,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+387,Argentina,Bulgaria,2,0,group,last_24,1986-06-10,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+388,South Korea,Italy,2,3,group,last_24,1986-06-10,Puebla,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+389,England,Poland,3,0,group,last_24,1986-06-11,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+390,Mexico,Iraq,1,0,group,last_24,1986-06-11,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+391,Paraguay,Belgium,2,2,group,last_24,1986-06-11,Toluca,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+392,Portugal,Morocco,1,3,group,last_24,1986-06-11,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+393,Algeria,Spain,0,3,group,last_24,1986-06-12,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+394,Northern Ireland,Brazil,0,3,group,last_24,1986-06-12,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+395,Denmark,Germany,2,0,group,last_24,1986-06-13,Querétaro,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+396,Scotland,Uruguay,0,0,group,last_24,1986-06-13,Nezahualcóyotl,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+397,Mexico,Bulgaria,2,0,round_of_16,last_16,1986-06-15,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+398,Russia,Belgium,3,4,round_of_16,last_16,1986-06-15,León,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+399,Argentina,Uruguay,1,0,round_of_16,last_16,1986-06-16,Puebla,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+400,Brazil,Poland,4,0,round_of_16,last_16,1986-06-16,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+401,Italy,France,0,2,round_of_16,last_16,1986-06-17,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+402,Morocco,Germany,0,1,round_of_16,last_16,1986-06-17,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+403,Denmark,Spain,1,5,round_of_16,last_16,1986-06-18,Querétaro,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+404,England,Paraguay,3,0,round_of_16,last_16,1986-06-18,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+405,Brazil,France,1,1,quarterfinal,last_8,1986-06-21,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+406,Mexico,Germany,0,0,quarterfinal,last_8,1986-06-21,Monterrey,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+407,Argentina,England,2,1,quarterfinal,last_8,1986-06-22,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+408,Spain,Belgium,1,1,quarterfinal,last_8,1986-06-22,Puebla,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+409,Argentina,Belgium,2,0,semifinal,last_4,1986-06-25,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+410,France,Germany,0,2,semifinal,last_4,1986-06-25,Guadalajara,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+411,France,Belgium,4,2,final_3_4,last_3_4,1986-06-28,Puebla,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+412,Argentina,Germany,3,2,final,last_2,1986-06-29,Mexico City,Mexico,1986,https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+413,Argentina,Cameroon,0,1,group,last_24,1990-06-08,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+414,Italy,Austria,1,0,group,last_24,1990-06-09,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+415,Russia,Romania,0,2,group,last_24,1990-06-09,Bari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+416,United Arab Emirates,Colombia,0,2,group,last_24,1990-06-09,Bologna,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+417,Brazil,Sweden,2,1,group,last_24,1990-06-10,Turin,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+418,Germany,Yugoslavia,4,1,group,last_24,1990-06-10,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+419,United States,Czechoslovakia,1,5,group,last_24,1990-06-10,Florence,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+420,Costa Rica,Scotland,1,0,group,last_24,1990-06-11,Genoa,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+421,England,Republic of Ireland,1,1,group,last_24,1990-06-11,Cagliari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+422,Belgium,South Korea,2,0,group,last_24,1990-06-12,Verona,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+423,Netherlands,Egypt,1,1,group,last_24,1990-06-12,Palermo,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+424,Argentina,Russia,2,0,group,last_24,1990-06-13,Naples,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+425,Uruguay,Spain,0,0,group,last_24,1990-06-13,Udine,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+426,Cameroon,Romania,2,1,group,last_24,1990-06-14,Bari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+427,Italy,United States,1,0,group,last_24,1990-06-14,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+428,Yugoslavia,Colombia,1,0,group,last_24,1990-06-14,Bologna,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+429,Austria,Czechoslovakia,0,1,group,last_24,1990-06-15,Florence,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+430,Germany,United Arab Emirates,5,1,group,last_24,1990-06-15,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+431,Brazil,Costa Rica,1,0,group,last_24,1990-06-16,Turin,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+432,England,Netherlands,0,0,group,last_24,1990-06-16,Cagliari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+433,Sweden,Scotland,1,2,group,last_24,1990-06-16,Genoa,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+434,Belgium,Uruguay,3,1,group,last_24,1990-06-17,Verona,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+435,Republic of Ireland,Egypt,0,0,group,last_24,1990-06-17,Palermo,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+436,South Korea,Spain,1,3,group,last_24,1990-06-17,Udine,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+437,Argentina,Romania,1,1,group,last_24,1990-06-18,Naples,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+438,Cameroon,Russia,0,4,group,last_24,1990-06-18,Bari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+439,Austria,United States,2,1,group,last_24,1990-06-19,Florence,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+440,Germany,Colombia,1,1,group,last_24,1990-06-19,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+441,Italy,Czechoslovakia,2,0,group,last_24,1990-06-19,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+442,Yugoslavia,United Arab Emirates,4,1,group,last_24,1990-06-19,Bologna,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+443,Brazil,Scotland,1,0,group,last_24,1990-06-20,Turin,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+444,Sweden,Costa Rica,1,2,group,last_24,1990-06-20,Genoa,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+445,Belgium,Spain,1,2,group,last_24,1990-06-21,Verona,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+446,England,Egypt,1,0,group,last_24,1990-06-21,Cagliari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+447,Republic of Ireland,Netherlands,1,1,group,last_24,1990-06-21,Palermo,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+448,South Korea,Uruguay,0,1,group,last_24,1990-06-21,Udine,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+449,Cameroon,Colombia,2,1,round_of_16,last_16,1990-06-23,Naples,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+450,Czechoslovakia,Costa Rica,4,1,round_of_16,last_16,1990-06-23,Bari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+451,Brazil,Argentina,0,1,round_of_16,last_16,1990-06-24,Turin,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+452,Germany,Netherlands,2,1,round_of_16,last_16,1990-06-24,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+453,Republic of Ireland,Romania,0,0,round_of_16,last_16,1990-06-25,Genoa,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+454,Italy,Uruguay,2,0,round_of_16,last_16,1990-06-25,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+455,England,Belgium,1,0,round_of_16,last_16,1990-06-26,Bologna,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+456,Spain,Yugoslavia,1,2,round_of_16,last_16,1990-06-26,Verona,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+457,Italy,Republic of Ireland,1,0,quarterfinal,last_8,1990-06-30,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+458,Yugoslavia,Argentina,0,0,quarterfinal,last_8,1990-06-30,Florence,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+459,Cameroon,England,2,3,quarterfinal,last_8,1990-07-01,Naples,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+460,Germany,Czechoslovakia,1,0,quarterfinal,last_8,1990-07-01,Milan,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+461,Italy,Argentina,1,1,semifinal,last_4,1990-07-03,Naples,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+462,Germany,England,1,1,semifinal,last_4,1990-07-04,Turin,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+463,Italy,England,2,1,final_3_4,last_3_4,1990-07-07,Bari,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+464,Germany,Argentina,1,0,final,last_2,1990-07-08,Rome,Italy,1990,https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+465,Germany,Bolivia,1,0,group,last_24,1994-06-17,Chicago,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+466,Spain,South Korea,2,2,group,last_24,1994-06-17,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+467,Colombia,Romania,1,3,group,last_24,1994-06-18,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+468,Italy,Republic of Ireland,0,1,group,last_24,1994-06-18,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+469,United States,Switzerland,1,1,group,last_24,1994-06-18,Pontiac,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+470,Belgium,Morocco,1,0,group,last_24,1994-06-19,Orlando,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+471,Cameroon,Sweden,2,2,group,last_24,1994-06-19,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+472,Norway,Mexico,1,0,group,last_24,1994-06-19,"Washington, D.C.",United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+473,Brazil,Russia,2,0,group,last_24,1994-06-20,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+474,Netherlands,Saudi Arabia,2,1,group,last_24,1994-06-20,"Washington, D.C.",United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+475,Argentina,Greece,4,0,group,last_24,1994-06-21,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+476,Germany,Spain,1,1,group,last_24,1994-06-21,Chicago,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+477,Nigeria,Bulgaria,3,0,group,last_24,1994-06-21,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+478,Romania,Switzerland,1,4,group,last_24,1994-06-22,Pontiac,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+479,United States,Colombia,2,1,group,last_24,1994-06-22,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+480,Italy,Norway,1,0,group,last_24,1994-06-23,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+481,South Korea,Bolivia,0,0,group,last_24,1994-06-23,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+482,Brazil,Cameroon,3,0,group,last_24,1994-06-24,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+483,Mexico,Republic of Ireland,2,1,group,last_24,1994-06-24,Orlando,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+484,Sweden,Russia,3,1,group,last_24,1994-06-24,Pontiac,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+485,Argentina,Nigeria,2,1,group,last_24,1994-06-25,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+486,Belgium,Netherlands,1,0,group,last_24,1994-06-25,Orlando,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+487,Saudi Arabia,Morocco,2,1,group,last_24,1994-06-25,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+488,Bulgaria,Greece,4,0,group,last_24,1994-06-26,Chicago,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+489,Switzerland,Colombia,0,2,group,last_24,1994-06-26,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+490,United States,Romania,0,1,group,last_24,1994-06-26,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+491,Bolivia,Spain,1,3,group,last_24,1994-06-27,Chicago,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+492,Germany,South Korea,3,2,group,last_24,1994-06-27,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+493,Brazil,Sweden,1,1,group,last_24,1994-06-28,Pontiac,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+494,Republic of Ireland,Norway,0,0,group,last_24,1994-06-28,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+495,Italy,Mexico,1,1,group,last_24,1994-06-28,"Washington, D.C.",United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+496,Russia,Cameroon,6,1,group,last_24,1994-06-28,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+497,Belgium,Saudi Arabia,0,1,group,last_24,1994-06-29,"Washington, D.C.",United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+498,Morocco,Netherlands,1,2,group,last_24,1994-06-29,Orlando,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+499,Argentina,Bulgaria,0,2,group,last_24,1994-06-30,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+500,Greece,Nigeria,0,2,group,last_24,1994-06-30,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+501,Germany,Belgium,3,2,round_of_16,last_16,1994-07-02,Chicago,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+502,Spain,Switzerland,3,0,round_of_16,last_16,1994-07-02,"Washington, D.C.",United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+503,Romania,Argentina,3,2,round_of_16,last_16,1994-07-03,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+504,Saudi Arabia,Sweden,1,3,round_of_16,last_16,1994-07-03,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+505,Netherlands,Republic of Ireland,2,0,round_of_16,last_16,1994-07-04,Orlando,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+506,United States,Brazil,0,1,round_of_16,last_16,1994-07-04,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+507,Mexico,Bulgaria,1,1,round_of_16,last_16,1994-07-05,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+508,Nigeria,Italy,1,2,round_of_16,last_16,1994-07-05,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+509,Italy,Spain,2,1,quarterfinal,last_8,1994-07-09,Foxborough,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+510,Netherlands,Brazil,2,3,quarterfinal,last_8,1994-07-09,Dallas,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+511,Bulgaria,Germany,2,1,quarterfinal,last_8,1994-07-10,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+512,Romania,Sweden,2,2,quarterfinal,last_8,1994-07-10,Palo Alto,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+513,Bulgaria,Italy,1,2,semifinal,last_4,1994-07-13,East Rutherford,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+514,Sweden,Brazil,0,1,semifinal,last_4,1994-07-13,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+515,Sweden,Bulgaria,4,0,final_3_4,last_3_4,1994-07-16,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+516,Brazil,Italy,0,0,final,last_2,1994-07-17,Pasadena,United States,1994,https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+517,Brazil,Scotland,2,1,group,last_32,1998-06-10,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+518,Morocco,Norway,2,2,group,last_32,1998-06-10,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+519,Cameroon,Austria,1,1,group,last_32,1998-06-11,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+520,Italy,Chile,2,2,group,last_32,1998-06-11,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+521,France,South Africa,3,0,group,last_32,1998-06-12,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+522,Paraguay,Bulgaria,0,0,group,last_32,1998-06-12,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+523,Saudi Arabia,Denmark,0,1,group,last_32,1998-06-12,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+524,South Korea,Mexico,1,3,group,last_32,1998-06-13,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+525,Netherlands,Belgium,0,0,group,last_32,1998-06-13,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+526,Spain,Nigeria,2,3,group,last_32,1998-06-13,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+527,Argentina,Japan,1,0,group,last_32,1998-06-14,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+528,Jamaica,Croatia,1,3,group,last_32,1998-06-14,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+529,Serbia,Iran,1,0,group,last_32,1998-06-14,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+530,England,Tunisia,2,0,group,last_32,1998-06-15,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+531,Germany,United States,2,0,group,last_32,1998-06-15,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+532,Romania,Colombia,1,0,group,last_32,1998-06-15,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+533,Brazil,Morocco,3,0,group,last_32,1998-06-16,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+534,Scotland,Norway,1,1,group,last_32,1998-06-16,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+535,Chile,Austria,1,1,group,last_32,1998-06-17,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+536,Italy,Cameroon,3,0,group,last_32,1998-06-17,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+537,France,Saudi Arabia,4,0,group,last_32,1998-06-18,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+538,South Africa,Denmark,1,1,group,last_32,1998-06-18,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+539,Nigeria,Bulgaria,1,0,group,last_32,1998-06-19,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+540,Spain,Paraguay,0,0,group,last_32,1998-06-19,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+541,Belgium,Mexico,2,2,group,last_32,1998-06-20,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+542,Japan,Croatia,0,1,group,last_32,1998-06-20,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+543,Netherlands,South Korea,5,0,group,last_32,1998-06-20,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+544,Argentina,Jamaica,5,0,group,last_32,1998-06-21,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+545,Germany,Serbia,2,2,group,last_32,1998-06-21,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+546,United States,Iran,1,2,group,last_32,1998-06-21,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+547,Colombia,Tunisia,1,0,group,last_32,1998-06-22,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+548,Romania,England,2,1,group,last_32,1998-06-22,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+549,Brazil,Norway,1,2,group,last_32,1998-06-23,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+550,Chile,Cameroon,1,1,group,last_32,1998-06-23,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+551,Italy,Austria,2,1,group,last_32,1998-06-23,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+552,Scotland,Morocco,0,3,group,last_32,1998-06-23,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+553,France,Denmark,2,1,group,last_32,1998-06-24,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+554,Nigeria,Paraguay,1,3,group,last_32,1998-06-24,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+555,South Africa,Saudi Arabia,2,2,group,last_32,1998-06-24,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+556,Spain,Bulgaria,6,1,group,last_32,1998-06-24,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+557,Belgium,South Korea,1,1,group,last_32,1998-06-25,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+558,Germany,Iran,2,0,group,last_32,1998-06-25,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+559,Netherlands,Mexico,2,2,group,last_32,1998-06-25,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+560,United States,Serbia,0,1,group,last_32,1998-06-25,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+561,Argentina,Croatia,1,0,group,last_32,1998-06-26,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+562,Colombia,England,0,2,group,last_32,1998-06-26,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+563,Japan,Jamaica,1,2,group,last_32,1998-06-26,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+564,Romania,Tunisia,1,1,group,last_32,1998-06-26,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+565,Brazil,Chile,4,1,round_of_16,last_16,1998-06-27,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+566,Italy,Norway,1,0,round_of_16,last_16,1998-06-27,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+567,France,Paraguay,1,0,round_of_16,last_16,1998-06-28,Lens,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+568,Nigeria,Denmark,1,4,round_of_16,last_16,1998-06-28,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+569,Germany,Mexico,2,1,round_of_16,last_16,1998-06-29,Montpellier,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+570,Netherlands,Serbia,2,1,round_of_16,last_16,1998-06-29,Toulouse,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+571,Argentina,England,2,2,round_of_16,last_16,1998-06-30,Saint-Étienne,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+572,Romania,Croatia,0,1,round_of_16,last_16,1998-06-30,Bordeaux,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+573,Brazil,Denmark,3,2,quarterfinal,last_8,1998-07-03,Nantes,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+574,France,Italy,0,0,quarterfinal,last_8,1998-07-03,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+575,Germany,Croatia,0,3,quarterfinal,last_8,1998-07-04,Lyon,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+576,Netherlands,Argentina,2,1,quarterfinal,last_8,1998-07-04,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+577,Brazil,Netherlands,1,1,semifinal,last_4,1998-07-07,Marseille,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+578,France,Croatia,2,1,semifinal,last_4,1998-07-08,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+579,Netherlands,Croatia,1,2,final_3_4,last_3_4,1998-07-11,Paris,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+580,France,Brazil,3,0,final,last_2,1998-07-12,Saint-Denis,France,1998,https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+581,France,Senegal,0,1,group,last_32,2002-05-31,Seoul,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+582,Germany,Saudi Arabia,8,0,group,last_32,2002-06-01,Sapporo,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+583,Republic of Ireland,Cameroon,1,1,group,last_32,2002-06-01,Niigata,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+584,Uruguay,Denmark,1,2,group,last_32,2002-06-01,Ulsan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+585,Argentina,Nigeria,1,0,group,last_32,2002-06-02,Kashima,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+586,England,Sweden,1,1,group,last_32,2002-06-02,Saitama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+587,Paraguay,South Africa,2,2,group,last_32,2002-06-02,Busan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+588,Spain,Slovenia,3,1,group,last_32,2002-06-02,Gwangju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+589,Brazil,Turkey,2,1,group,last_32,2002-06-03,Ulsan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+590,Croatia,Mexico,0,1,group,last_32,2002-06-03,Niigata,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+591,Italy,Ecuador,2,0,group,last_32,2002-06-03,Sapporo,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+592,China,Costa Rica,0,2,group,last_32,2002-06-04,Gwangju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+593,Japan,Belgium,2,2,group,last_32,2002-06-04,Saitama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+594,South Korea,Poland,2,0,group,last_32,2002-06-04,Busan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+595,Germany,Republic of Ireland,1,1,group,last_32,2002-06-05,Kashima,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+596,Russia,Tunisia,2,0,group,last_32,2002-06-05,Kobe,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+597,United States,Portugal,3,2,group,last_32,2002-06-05,Suwon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+598,Cameroon,Saudi Arabia,1,0,group,last_32,2002-06-06,Saitama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+599,Denmark,Senegal,1,1,group,last_32,2002-06-06,Daegu,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+600,France,Uruguay,0,0,group,last_32,2002-06-06,Busan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+601,Argentina,England,0,1,group,last_32,2002-06-07,Sapporo,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+602,Spain,Paraguay,3,1,group,last_32,2002-06-07,Jeonju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+603,Sweden,Nigeria,2,1,group,last_32,2002-06-07,Kobe,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+604,Brazil,China,4,0,group,last_32,2002-06-08,Seogwipo,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+605,Italy,Croatia,1,2,group,last_32,2002-06-08,Kashima,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+606,South Africa,Slovenia,1,0,group,last_32,2002-06-08,Daegu,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+607,Costa Rica,Turkey,1,1,group,last_32,2002-06-09,Incheon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+608,Japan,Russia,1,0,group,last_32,2002-06-09,Yokohama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+609,Mexico,Ecuador,2,1,group,last_32,2002-06-09,Rifu,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+610,South Korea,United States,1,1,group,last_32,2002-06-10,Daegu,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+611,Portugal,Poland,4,0,group,last_32,2002-06-10,Jeonju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+612,Tunisia,Belgium,1,1,group,last_32,2002-06-10,Ōita,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+613,Cameroon,Germany,0,2,group,last_32,2002-06-11,Fukuroi,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+614,Denmark,France,2,0,group,last_32,2002-06-11,Incheon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+615,Saudi Arabia,Republic of Ireland,0,3,group,last_32,2002-06-11,Yokohama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+616,Senegal,Uruguay,3,3,group,last_32,2002-06-11,Suwon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+617,Nigeria,England,0,0,group,last_32,2002-06-12,Osaka,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+618,Slovenia,Paraguay,1,3,group,last_32,2002-06-12,Seogwipo,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+619,South Africa,Spain,2,3,group,last_32,2002-06-12,Daejeon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+620,Sweden,Argentina,1,1,group,last_32,2002-06-12,Rifu,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+621,Costa Rica,Brazil,2,5,group,last_32,2002-06-13,Suwon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+622,Ecuador,Croatia,1,0,group,last_32,2002-06-13,Yokohama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+623,Mexico,Italy,1,1,group,last_32,2002-06-13,Ōita,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+624,Turkey,China,3,0,group,last_32,2002-06-13,Seoul,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+625,Belgium,Russia,3,2,group,last_32,2002-06-14,Fukuroi,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+626,Japan,Tunisia,2,0,group,last_32,2002-06-14,Osaka,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+627,South Korea,Portugal,1,0,group,last_32,2002-06-14,Incheon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+628,Poland,United States,3,1,group,last_32,2002-06-14,Daejeon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+629,Denmark,England,0,3,round_of_16,last_16,2002-06-15,Niigata,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+630,Germany,Paraguay,1,0,round_of_16,last_16,2002-06-15,Seogwipo,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+631,Spain,Republic of Ireland,1,1,round_of_16,last_16,2002-06-16,Suwon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+632,Sweden,Senegal,1,2,round_of_16,last_16,2002-06-16,Ōita,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+633,Brazil,Belgium,2,0,round_of_16,last_16,2002-06-17,Kobe,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+634,Mexico,United States,0,2,round_of_16,last_16,2002-06-17,Jeonju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+635,Japan,Turkey,0,1,round_of_16,last_16,2002-06-18,Rifu,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+636,South Korea,Italy,2,1,round_of_16,last_16,2002-06-18,Daejeon,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+637,England,Brazil,1,2,quarterfinal,last_8,2002-06-21,Fukuroi,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+638,Germany,United States,1,0,quarterfinal,last_8,2002-06-21,Ulsan,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+639,South Korea,Spain,0,0,quarterfinal,last_8,2002-06-22,Gwangju,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+640,Senegal,Turkey,0,1,quarterfinal,last_8,2002-06-22,Osaka,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+641,South Korea,Germany,0,1,semifinal,last_4,2002-06-25,Seoul,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+642,Brazil,Turkey,1,0,semifinal,last_4,2002-06-26,Saitama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+643,South Korea,Turkey,2,3,final_3_4,last_3_4,2002-06-29,Daegu,South Korea,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+644,Germany,Brazil,0,2,final,last_2,2002-06-30,Yokohama,Japan,2002,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+645,Germany,Costa Rica,4,2,group,last_32,2006-06-09,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+646,Poland,Ecuador,0,2,group,last_32,2006-06-09,Gelsenkirchen,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+647,Argentina,Ivory Coast,2,1,group,last_32,2006-06-10,Hamburg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+648,England,Paraguay,1,0,group,last_32,2006-06-10,Frankfurt,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+649,Trinidad and Tobago,Sweden,0,0,group,last_32,2006-06-10,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+650,Angola,Portugal,0,1,group,last_32,2006-06-11,Cologne,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+651,Mexico,Iran,3,1,group,last_32,2006-06-11,Nuremberg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+652,Serbia,Netherlands,0,1,group,last_32,2006-06-11,Leipzig,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+653,Australia,Japan,3,1,group,last_32,2006-06-12,Kaiserslautern,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+654,Italy,Ghana,2,0,group,last_32,2006-06-12,Hanover,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+655,United States,Czech Republic,0,3,group,last_32,2006-06-12,Gelsenkirchen,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+656,Brazil,Croatia,1,0,group,last_32,2006-06-13,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+657,France,Switzerland,0,0,group,last_32,2006-06-13,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+658,South Korea,Togo,2,1,group,last_32,2006-06-13,Frankfurt,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+659,Germany,Poland,1,0,group,last_32,2006-06-14,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+660,Spain,Ukraine,4,0,group,last_32,2006-06-14,Leipzig,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+661,Tunisia,Saudi Arabia,2,2,group,last_32,2006-06-14,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+662,Ecuador,Costa Rica,3,0,group,last_32,2006-06-15,Hamburg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+663,England,Trinidad and Tobago,2,0,group,last_32,2006-06-15,Nuremberg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+664,Sweden,Paraguay,1,0,group,last_32,2006-06-15,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+665,Argentina,Serbia,6,0,group,last_32,2006-06-16,Gelsenkirchen,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+666,Mexico,Angola,0,0,group,last_32,2006-06-16,Hanover,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+667,Netherlands,Ivory Coast,2,1,group,last_32,2006-06-16,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+668,Czech Republic,Ghana,0,2,group,last_32,2006-06-17,Cologne,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+669,Italy,United States,1,1,group,last_32,2006-06-17,Kaiserslautern,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+670,Portugal,Iran,2,0,group,last_32,2006-06-17,Frankfurt,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+671,Brazil,Australia,2,0,group,last_32,2006-06-18,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+672,France,South Korea,1,1,group,last_32,2006-06-18,Leipzig,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+673,Japan,Croatia,0,0,group,last_32,2006-06-18,Nuremberg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+674,Saudi Arabia,Ukraine,0,4,group,last_32,2006-06-19,Hamburg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+675,Spain,Tunisia,3,1,group,last_32,2006-06-19,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+676,Togo,Switzerland,0,2,group,last_32,2006-06-19,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+677,Costa Rica,Poland,1,2,group,last_32,2006-06-20,Hanover,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+678,Germany,Ecuador,3,0,group,last_32,2006-06-20,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+679,Paraguay,Trinidad and Tobago,2,0,group,last_32,2006-06-20,Kaiserslautern,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+680,Sweden,England,2,2,group,last_32,2006-06-20,Cologne,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+681,Iran,Angola,1,1,group,last_32,2006-06-21,Leipzig,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+682,Ivory Coast,Serbia,3,2,group,last_32,2006-06-21,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+683,Netherlands,Argentina,0,0,group,last_32,2006-06-21,Frankfurt,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+684,Portugal,Mexico,2,1,group,last_32,2006-06-21,Gelsenkirchen,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+685,Croatia,Australia,2,2,group,last_32,2006-06-22,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+686,Czech Republic,Italy,0,2,group,last_32,2006-06-22,Hamburg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+687,Ghana,United States,2,1,group,last_32,2006-06-22,Nuremberg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+688,Japan,Brazil,1,4,group,last_32,2006-06-22,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+689,Saudi Arabia,Spain,0,1,group,last_32,2006-06-23,Kaiserslautern,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+690,Switzerland,South Korea,2,0,group,last_32,2006-06-23,Hanover,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+691,Togo,France,0,2,group,last_32,2006-06-23,Cologne,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+692,Ukraine,Tunisia,1,0,group,last_32,2006-06-23,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+693,Argentina,Mexico,2,1,round_of_16,last_16,2006-06-24,Leipzig,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+694,Germany,Sweden,2,0,round_of_16,last_16,2006-06-24,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+695,England,Ecuador,1,0,round_of_16,last_16,2006-06-25,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+696,Portugal,Netherlands,1,0,round_of_16,last_16,2006-06-25,Nuremberg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+697,Italy,Australia,1,0,round_of_16,last_16,2006-06-26,Kaiserslautern,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+698,Switzerland,Ukraine,0,0,round_of_16,last_16,2006-06-26,Cologne,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+699,Brazil,Ghana,3,0,round_of_16,last_16,2006-06-27,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+700,Spain,France,1,3,round_of_16,last_16,2006-06-27,Hanover,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+701,Germany,Argentina,1,1,quarterfinal,last_8,2006-06-30,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+702,Italy,Ukraine,3,0,quarterfinal,last_8,2006-06-30,Hamburg,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+703,Brazil,France,0,1,quarterfinal,last_8,2006-07-01,Frankfurt,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+704,England,Portugal,0,0,quarterfinal,last_8,2006-07-01,Gelsenkirchen,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+705,Germany,Italy,0,2,semifinal,last_4,2006-07-04,Dortmund,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+706,Portugal,France,0,1,semifinal,last_4,2006-07-05,Munich,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+707,Germany,Portugal,3,1,final_3_4,last_3_4,2006-07-08,Stuttgart,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+708,Italy,France,1,1,final,last_2,2006-07-09,Berlin,Germany,2006,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+709,South Africa,Mexico,1,1,group,last_32,2010-06-11,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+710,Uruguay,France,0,0,group,last_32,2010-06-11,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+711,Argentina,Nigeria,1,0,group,last_32,2010-06-12,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+712,England,United States,1,1,group,last_32,2010-06-12,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+713,South Korea,Greece,2,0,group,last_32,2010-06-12,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+714,Algeria,Slovenia,0,1,group,last_32,2010-06-13,Polokwane,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+715,Germany,Australia,4,0,group,last_32,2010-06-13,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+716,Serbia,Ghana,0,1,group,last_32,2010-06-13,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+717,Italy,Paraguay,1,1,group,last_32,2010-06-14,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+718,Japan,Cameroon,1,0,group,last_32,2010-06-14,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+719,Netherlands,Denmark,2,0,group,last_32,2010-06-14,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+720,Brazil,North Korea,2,1,group,last_32,2010-06-15,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+721,Ivory Coast,Portugal,0,0,group,last_32,2010-06-15,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+722,New Zealand,Slovakia,1,1,group,last_32,2010-06-15,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+723,Honduras,Chile,0,1,group,last_32,2010-06-16,Nelspruit,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+724,South Africa,Uruguay,0,3,group,last_32,2010-06-16,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+725,Spain,Switzerland,0,1,group,last_32,2010-06-16,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+726,Argentina,South Korea,4,1,group,last_32,2010-06-17,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+727,France,Mexico,0,2,group,last_32,2010-06-17,Polokwane,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+728,Greece,Nigeria,2,1,group,last_32,2010-06-17,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+729,England,Algeria,0,0,group,last_32,2010-06-18,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+730,Germany,Serbia,0,1,group,last_32,2010-06-18,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+731,Slovenia,United States,2,2,group,last_32,2010-06-18,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+732,Cameroon,Denmark,1,2,group,last_32,2010-06-19,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+733,Ghana,Australia,1,1,group,last_32,2010-06-19,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+734,Netherlands,Japan,1,0,group,last_32,2010-06-19,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+735,Brazil,Ivory Coast,3,1,group,last_32,2010-06-20,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+736,Italy,New Zealand,1,1,group,last_32,2010-06-20,Nelspruit,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+737,Slovakia,Paraguay,0,2,group,last_32,2010-06-20,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+738,Chile,Switzerland,1,0,group,last_32,2010-06-21,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+739,Portugal,North Korea,7,0,group,last_32,2010-06-21,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+740,Spain,Honduras,2,0,group,last_32,2010-06-21,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+741,Greece,Argentina,0,2,group,last_32,2010-06-22,Polokwane,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+742,Mexico,Uruguay,0,1,group,last_32,2010-06-22,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+743,Nigeria,South Korea,2,2,group,last_32,2010-06-22,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+744,South Africa,France,2,1,group,last_32,2010-06-22,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+745,Australia,Serbia,2,1,group,last_32,2010-06-23,Nelspruit,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+746,Ghana,Germany,0,1,group,last_32,2010-06-23,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+747,Slovenia,England,0,1,group,last_32,2010-06-23,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+748,United States,Algeria,1,0,group,last_32,2010-06-23,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+749,Cameroon,Netherlands,1,2,group,last_32,2010-06-24,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+750,Denmark,Japan,1,3,group,last_32,2010-06-24,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+751,Paraguay,New Zealand,0,0,group,last_32,2010-06-24,Polokwane,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+752,Slovakia,Italy,3,2,group,last_32,2010-06-24,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+753,Chile,Spain,1,2,group,last_32,2010-06-25,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+754,North Korea,Ivory Coast,0,3,group,last_32,2010-06-25,Nelspruit,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+755,Portugal,Brazil,0,0,group,last_32,2010-06-25,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+756,Switzerland,Honduras,0,0,group,last_32,2010-06-25,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+757,Uruguay,South Korea,2,1,round_of_16,last_16,2010-06-26,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+758,United States,Ghana,1,2,round_of_16,last_16,2010-06-26,Rustenburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+759,Argentina,Mexico,3,1,round_of_16,last_16,2010-06-27,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+760,Germany,England,4,1,round_of_16,last_16,2010-06-27,Bloemfontein,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+761,Brazil,Chile,3,0,round_of_16,last_16,2010-06-28,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+762,Netherlands,Slovakia,2,1,round_of_16,last_16,2010-06-28,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+763,Paraguay,Japan,0,0,round_of_16,last_16,2010-06-29,Pretoria,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+764,Spain,Portugal,1,0,round_of_16,last_16,2010-06-29,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+765,Netherlands,Brazil,2,1,quarterfinal,last_8,2010-07-02,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+766,Uruguay,Ghana,1,1,quarterfinal,last_8,2010-07-02,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+767,Argentina,Germany,0,4,quarterfinal,last_8,2010-07-03,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+768,Paraguay,Spain,0,1,quarterfinal,last_8,2010-07-03,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+769,Uruguay,Netherlands,2,3,semifinal,last_4,2010-07-06,Cape Town,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+770,Germany,Spain,0,1,semifinal,last_4,2010-07-07,Durban,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+771,Uruguay,Germany,2,3,final_3_4,last_3_4,2010-07-10,Port Elizabeth,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+772,Netherlands,Spain,0,1,final,last_2,2010-07-11,Johannesburg,South Africa,2010,https://en.wikipedia.org/wiki/2010_FIFA_World_Cup
+773,Brazil,Croatia,3,1,group,last_32,2014-06-12,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+774,Chile,Australia,3,1,group,last_32,2014-06-13,Cuiabá,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+775,Mexico,Cameroon,1,0,group,last_32,2014-06-13,Natal,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+776,Spain,Netherlands,1,5,group,last_32,2014-06-13,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+777,Colombia,Greece,3,0,group,last_32,2014-06-14,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+778,England,Italy,1,2,group,last_32,2014-06-14,Manaus,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+779,Ivory Coast,Japan,2,1,group,last_32,2014-06-14,Recife,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+780,Uruguay,Costa Rica,1,3,group,last_32,2014-06-14,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+781,Argentina,Bosnia and Herzegovina,2,1,group,last_32,2014-06-15,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+782,France,Honduras,3,0,group,last_32,2014-06-15,Porto Alegre,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+783,Switzerland,Ecuador,2,1,group,last_32,2014-06-15,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+784,Germany,Portugal,4,0,group,last_32,2014-06-16,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+785,Ghana,United States,1,2,group,last_32,2014-06-16,Natal,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+786,Iran,Nigeria,0,0,group,last_32,2014-06-16,Curitiba,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+787,Belgium,Algeria,2,1,group,last_32,2014-06-17,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+788,Brazil,Mexico,0,0,group,last_32,2014-06-17,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+789,Russia,South Korea,1,1,group,last_32,2014-06-17,Cuiabá,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+790,Australia,Netherlands,2,3,group,last_32,2014-06-18,Curitiba,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+791,Cameroon,Croatia,0,4,group,last_32,2014-06-18,Manaus,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+792,Spain,Chile,0,2,group,last_32,2014-06-18,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+793,Colombia,Ivory Coast,2,1,group,last_32,2014-06-19,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+794,Japan,Greece,0,0,group,last_32,2014-06-19,Natal,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+795,Uruguay,England,2,1,group,last_32,2014-06-19,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+796,Honduras,Ecuador,1,2,group,last_32,2014-06-20,Curitiba,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+797,Italy,Costa Rica,0,1,group,last_32,2014-06-20,Recife,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+798,Switzerland,France,2,5,group,last_32,2014-06-20,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+799,Argentina,Iran,1,0,group,last_32,2014-06-21,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+800,Germany,Ghana,2,2,group,last_32,2014-06-21,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+801,Nigeria,Bosnia and Herzegovina,1,0,group,last_32,2014-06-21,Cuiabá,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+802,Belgium,Russia,1,0,group,last_32,2014-06-22,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+803,South Korea,Algeria,2,4,group,last_32,2014-06-22,Porto Alegre,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+804,United States,Portugal,2,2,group,last_32,2014-06-22,Manaus,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+805,Australia,Spain,0,3,group,last_32,2014-06-23,Curitiba,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+806,Brazil,Cameroon,4,1,group,last_32,2014-06-23,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+807,Croatia,Mexico,1,3,group,last_32,2014-06-23,Recife,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+808,Netherlands,Chile,2,0,group,last_32,2014-06-23,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+809,Costa Rica,England,0,0,group,last_32,2014-06-24,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+810,Greece,Ivory Coast,2,1,group,last_32,2014-06-24,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+811,Italy,Uruguay,0,1,group,last_32,2014-06-24,Natal,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+812,Japan,Colombia,1,4,group,last_32,2014-06-24,Cuiabá,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+813,Bosnia and Herzegovina,Iran,3,1,group,last_32,2014-06-25,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+814,Ecuador,France,0,0,group,last_32,2014-06-25,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+815,Honduras,Switzerland,0,3,group,last_32,2014-06-25,Manaus,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+816,Nigeria,Argentina,2,3,group,last_32,2014-06-25,Porto Alegre,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+817,Algeria,Russia,1,1,group,last_32,2014-06-26,Curitiba,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+818,South Korea,Belgium,0,1,group,last_32,2014-06-26,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+819,Portugal,Ghana,2,1,group,last_32,2014-06-26,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+820,United States,Germany,0,1,group,last_32,2014-06-26,Recife,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+821,Brazil,Chile,1,1,round_of_16,last_16,2014-06-28,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+822,Colombia,Uruguay,2,0,round_of_16,last_16,2014-06-28,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+823,Costa Rica,Greece,1,1,round_of_16,last_16,2014-06-29,Recife,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+824,Netherlands,Mexico,2,1,round_of_16,last_16,2014-06-29,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+825,France,Nigeria,2,0,round_of_16,last_16,2014-06-30,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+826,Germany,Algeria,2,1,round_of_16,last_16,2014-06-30,Porto Alegre,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+827,Argentina,Switzerland,1,0,round_of_16,last_16,2014-07-01,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+828,Belgium,United States,2,1,round_of_16,last_16,2014-07-01,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+829,Brazil,Colombia,2,1,quarterfinal,last_8,2014-07-04,Fortaleza,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+830,France,Germany,0,1,quarterfinal,last_8,2014-07-04,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+831,Argentina,Belgium,1,0,quarterfinal,last_8,2014-07-05,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+832,Netherlands,Costa Rica,0,0,quarterfinal,last_8,2014-07-05,Salvador,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+833,Brazil,Germany,1,7,semifinal,last_4,2014-07-08,Belo Horizonte,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+834,Netherlands,Argentina,0,0,semifinal,last_4,2014-07-09,São Paulo,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+835,Brazil,Netherlands,0,3,final_3_4,last_3_4,2014-07-12,Brasília,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+836,Germany,Argentina,1,0,final,last_2,2014-07-13,Rio de Janeiro,Brazil,2014,https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+837,Russia,Saudi Arabia,5,0,group,last_32,2018-06-14,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+838,Egypt,Uruguay,0,1,group,last_32,2018-06-15,Ekaterinburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+839,Morocco,Iran,0,1,group,last_32,2018-06-15,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+840,Portugal,Spain,3,3,group,last_32,2018-06-15,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+841,France,Australia,2,1,group,last_32,2018-06-16,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+842,Argentina,Iceland,1,1,group,last_32,2018-06-16,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+843,Peru,Denmark,0,1,group,last_32,2018-06-16,Saransk,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+844,Croatia,Nigeria,2,0,group,last_32,2018-06-16,Kaliningrad,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+845,Costa Rica,Serbia,0,1,group,last_32,2018-06-17,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+846,Germany,Mexico,0,1,group,last_32,2018-06-17,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+847,Brazil,Switzerland,1,1,group,last_32,2018-06-17,Rostov-on-Don,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+848,Sweden,South Korea,1,0,group,last_32,2018-06-18,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+849,Belgium,Panama,3,0,group,last_32,2018-06-18,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+850,Tunisia,England,1,2,group,last_32,2018-06-18,Volgograd,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+851,Colombia,Japan,1,2,group,last_32,2018-06-19,Saransk,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+852,Poland,Senegal,1,2,group,last_32,2018-06-19,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+853,Russia,Egypt,3,1,group,last_32,2018-06-19,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+854,Portugal,Morocco,1,0,group,last_32,2018-06-20,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+855,Uruguay,Saudi Arabia,1,0,group,last_32,2018-06-20,Rostov-on-Don,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+856,Iran,Spain,0,1,group,last_32,2018-06-20,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+857,Denmark,Australia,1,1,group,last_32,2018-06-21,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+858,France,Peru,1,0,group,last_32,2018-06-21,Ekaterinburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+859,Argentina,Croatia,0,3,group,last_32,2018-06-21,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+860,Brazil,Costa Rica,2,0,group,last_32,2018-06-22,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+861,Nigeria,Iceland,2,0,group,last_32,2018-06-22,Volgograd,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+862,Serbia,Switzerland,1,2,group,last_32,2018-06-22,Kaliningrad,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+863,Belgium,Tunisia,5,2,group,last_32,2018-06-23,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+864,South Korea,Mexico,1,2,group,last_32,2018-06-23,Rostov-on-Don,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+865,Germany,Sweden,2,1,group,last_32,2018-06-23,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+866,England,Panama,6,1,group,last_32,2018-06-24,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+867,Japan,Senegal,2,2,group,last_32,2018-06-24,Ekaterinburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+868,Poland,Colombia,0,3,group,last_32,2018-06-24,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+869,Russia,Uruguay,0,3,group,last_32,2018-06-25,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+870,Saudi Arabia,Egypt,2,1,group,last_32,2018-06-25,Volgograd,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+871,Spain,Morocco,2,2,group,last_32,2018-06-25,Kaliningrad,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+872,Iran,Portugal,1,1,group,last_32,2018-06-25,Saransk,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+873,Australia,Peru,0,2,group,last_32,2018-06-26,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+874,Denmark,France,0,0,group,last_32,2018-06-26,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+875,Nigeria,Argentina,1,2,group,last_32,2018-06-26,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+876,Iceland,Croatia,1,2,group,last_32,2018-06-26,Rostov-on-Don,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+877,South Korea,Germany,2,0,group,last_32,2018-06-27,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+878,Mexico,Sweden,0,3,group,last_32,2018-06-27,Ekaterinburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+879,Serbia,Brazil,0,2,group,last_32,2018-06-27,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+880,Switzerland,Costa Rica,2,2,group,last_32,2018-06-27,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+881,Japan,Poland,0,1,group,last_32,2018-06-28,Volgograd,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+882,Senegal,Colombia,0,1,group,last_32,2018-06-28,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+883,Panama,Tunisia,1,2,group,last_32,2018-06-28,Saransk,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+884,England,Belgium,0,1,group,last_32,2018-06-28,Kaliningrad,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+885,France,Argentina,4,3,round_of_16,last_16,2018-06-30,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+886,Uruguay,Portugal,2,1,round_of_16,last_16,2018-06-30,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+887,Russia,Spain,1,1,round_of_16,last_16,2018-07-01,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+888,Croatia,Denmark,1,1,round_of_16,last_16,2018-07-01,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+889,Brazil,Mexico,2,0,round_of_16,last_16,2018-07-02,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+890,Belgium,Japan,3,2,round_of_16,last_16,2018-07-02,Rostov-on-Don,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+891,Sweden,Switzerland,1,0,round_of_16,last_16,2018-07-03,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+892,Colombia,England,1,1,round_of_16,last_16,2018-07-03,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+893,Uruguay,France,0,2,quarterfinal,last_8,2018-07-06,Nizhny Novgorod,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+894,Brazil,Belgium,1,2,quarterfinal,last_8,2018-07-06,Kazan,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+895,Sweden,England,0,2,quarterfinal,last_8,2018-07-07,Samara,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+896,Russia,Croatia,2,2,quarterfinal,last_8,2018-07-07,Sochi,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+897,France,Belgium,1,0,semifinal,last_4,2018-07-10,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+898,Croatia,England,2,1,semifinal,last_4,2018-07-11,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+899,Belgium,England,2,0,final_3_4,last_3_4,2018-07-14,Saint Petersburg,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+900,France,Croatia,4,2,final,last_2,2018-07-15,Moscow,Russia,2018,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+901,Qatar,Ecuador,0,2,group,last_32,2022-11-20,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+902,Senegal,Netherlands,0,2,group,last_32,2022-11-21,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+903,England,Iran,6,2,group,last_32,2022-11-21,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+904,United States,Wales,1,1,group,last_32,2022-11-21,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+905,Argentina,Saudi Arabia,1,2,group,last_32,2022-11-22,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+906,Mexico,Poland,0,0,group,last_32,2022-11-22,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+907,Denmark,Tunisia,0,0,group,last_32,2022-11-22,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+908,France,Australia,4,1,group,last_32,2022-11-22,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+909,Germany,Japan,1,2,group,last_32,2022-11-23,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+910,Spain,Costa Rica,7,0,group,last_32,2022-11-23,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+911,Morocco,Croatia,0,0,group,last_32,2022-11-23,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+912,Belgium,Canada,1,0,group,last_32,2022-11-23,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+913,Switzerland,Cameroon,1,0,group,last_32,2022-11-24,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+914,Brazil,Serbia,2,0,group,last_32,2022-11-24,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+915,Uruguay,South Korea,0,0,group,last_32,2022-11-24,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+916,Portugal,Ghana,3,2,group,last_32,2022-11-24,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+917,Qatar,Senegal,1,3,group,last_32,2022-11-25,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+918,Netherlands,Ecuador,1,1,group,last_32,2022-11-25,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+919,Wales,Iran,0,2,group,last_32,2022-11-25,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+920,England,United States,0,0,group,last_32,2022-11-25,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+921,Poland,Saudi Arabia,2,0,group,last_32,2022-11-26,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+922,Argentina,Mexico,2,0,group,last_32,2022-11-26,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+923,Tunisia,Australia,0,1,group,last_32,2022-11-26,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+924,France,Denmark,2,1,group,last_32,2022-11-26,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+925,Japan,Costa Rica,0,1,group,last_32,2022-11-27,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+926,Spain,Germany,1,1,group,last_32,2022-11-27,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+927,Belgium,Morocco,0,2,group,last_32,2022-11-27,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+928,Croatia,Canada,4,1,group,last_32,2022-11-27,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+929,Cameroon,Serbia,3,3,group,last_32,2022-11-28,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+930,Brazil,Switzerland,1,0,group,last_32,2022-11-28,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+931,South Korea,Ghana,2,3,group,last_32,2022-11-28,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+932,Portugal,Uruguay,2,0,group,last_32,2022-11-28,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+933,Ecuador,Senegal,1,2,group,last_32,2022-11-29,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+934,Qatar,Netherlands,0,2,group,last_32,2022-11-29,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+935,Wales,England,0,3,group,last_32,2022-11-29,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+936,Iran,United States,0,1,group,last_32,2022-11-29,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+937,Poland,Argentina,0,2,group,last_32,2022-11-30,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+938,Saudi Arabia,Mexico,1,2,group,last_32,2022-11-30,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+939,Australia,Denmark,1,0,group,last_32,2022-11-30,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+940,Tunisia,France,1,0,group,last_32,2022-11-30,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+941,Japan,Spain,2,1,group,last_32,2022-12-01,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+942,Costa Rica,Germany,2,4,group,last_32,2022-12-01,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+943,Croatia,Belgium,0,0,group,last_32,2022-12-01,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+944,Canada,Morocco,1,2,group,last_32,2022-12-01,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+945,Serbia,Switzerland,2,3,group,last_32,2022-12-02,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+946,Cameroon,Brazil,1,0,group,last_32,2022-12-02,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+947,Ghana,Uruguay,0,2,group,last_32,2022-12-02,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+948,South Korea,Portugal,2,1,group,last_32,2022-12-02,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+949,Netherlands,United States,3,1,round_of_16,last_16,2022-12-03,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+950,Argentina,Australia,2,1,round_of_16,last_16,2022-12-03,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+951,France,Poland,3,1,round_of_16,last_16,2022-12-04,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+952,England,Senegal,3,0,round_of_16,last_16,2022-12-04,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+953,Japan,Croatia,1,1,round_of_16,last_16,2022-12-05,Al Wakrah,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+954,Brazil,South Korea,4,1,round_of_16,last_16,2022-12-05,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+955,Morocco,Spain,0,0,round_of_16,last_16,2022-12-06,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+956,Portugal,Switzerland,6,1,round_of_16,last_16,2022-12-06,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+957,Croatia,Brazil,1,1,quarterfinal,last_8,2022-12-09,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+958,Netherlands,Argentina,2,2,quarterfinal,last_8,2022-12-09,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+959,Morocco,Portugal,1,0,quarterfinal,last_8,2022-12-10,Doha,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+960,England,France,1,2,quarterfinal,last_8,2022-12-10,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+961,Argentina,Croatia,3,0,semifinal,last_4,2022-12-13,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+962,France,Morocco,2,0,semifinal,last_4,2022-12-14,Al Khor,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+963,Croatia,Morocco,2,1,final_3_4,last_3_4,2022-12-17,Al Rayyan,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+964,Argentina,France,3,3,final,last_2,2022-12-18,Lusail,Qatar,2022,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+965,Mexico,South Africa,2,0,group,last_48,2026-06-11,Mexico City,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+966,South Korea,Czech Republic,2,1,group,last_48,2026-06-11,Zapopan,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+967,Canada,Bosnia and Herzegovina,1,1,group,last_48,2026-06-12,Toronto,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+968,United States,Paraguay,4,1,group,last_48,2026-06-12,Inglewood,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+969,Qatar,Switzerland,1,1,group,last_48,2026-06-13,Santa Clara,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+970,Brazil,Morocco,1,1,group,last_48,2026-06-13,East Rutherford,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+971,Haiti,Scotland,0,1,group,last_48,2026-06-13,Foxborough,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+972,Australia,Turkey,2,0,group,last_48,2026-06-13,Vancouver,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+973,Germany,Curaçao,7,1,group,last_48,2026-06-14,Houston,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+974,Ivory Coast,Ecuador,1,0,group,last_48,2026-06-14,Philadelphia,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+975,Netherlands,Japan,2,2,group,last_48,2026-06-14,Arlington,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+976,Sweden,Tunisia,5,1,group,last_48,2026-06-14,Guadalupe,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+977,Belgium,Egypt,1,1,group,last_48,2026-06-15,Seattle,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+978,Iran,New Zealand,2,2,group,last_48,2026-06-15,Inglewood,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+979,Spain,Cape Verde,0,0,group,last_48,2026-06-15,Atlanta,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+980,Saudi Arabia,Uruguay,1,1,group,last_48,2026-06-15,Miami Gardens,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+981,France,Senegal,3,1,group,last_48,2026-06-16,East Rutherford,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+982,Iraq,Norway,1,4,group,last_48,2026-06-16,Foxborough,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+983,Argentina,Algeria,3,0,group,last_48,2026-06-16,Kansas City,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+984,Austria,Jordan,3,1,group,last_48,2026-06-16,Santa Clara,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+985,Portugal,DR Congo,1,1,group,last_48,2026-06-17,Houston,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+986,Uzbekistan,Colombia,1,3,group,last_48,2026-06-17,Mexico City,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+987,England,Croatia,4,2,group,last_48,2026-06-17,Arlington,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+988,Ghana,Panama,1,0,group,last_48,2026-06-17,Toronto,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+989,Czech Republic,South Africa,1,1,group,last_48,2026-06-18,Atlanta,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+990,Mexico,South Korea,1,0,group,last_48,2026-06-18,Zapopan,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+991,Switzerland,Bosnia and Herzegovina,4,1,group,last_48,2026-06-18,Inglewood,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+992,Canada,Qatar,6,0,group,last_48,2026-06-18,Vancouver,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+993,Scotland,Morocco,0,1,group,last_48,2026-06-19,Foxborough,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+994,Brazil,Haiti,3,0,group,last_48,2026-06-19,Philadelphia,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+995,United States,Australia,2,0,group,last_48,2026-06-19,Seattle,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+996,Turkey,Paraguay,0,1,group,last_48,2026-06-19,Santa Clara,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+997,Germany,Ivory Coast,2,1,group,last_48,2026-06-20,Toronto,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+998,Ecuador,Curaçao,0,0,group,last_48,2026-06-20,Kansas City,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+999,Netherlands,Sweden,5,1,group,last_48,2026-06-20,Houston,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1000,Tunisia,Japan,0,4,group,last_48,2026-06-20,Guadalupe,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1001,Belgium,Iran,NA,NA,group,last_48,2026-06-21,Inglewood,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1002,New Zealand,Egypt,NA,NA,group,last_48,2026-06-21,Vancouver,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1003,Spain,Saudi Arabia,NA,NA,group,last_48,2026-06-21,Atlanta,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1004,Uruguay,Cape Verde,NA,NA,group,last_48,2026-06-21,Miami Gardens,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1005,France,Iraq,NA,NA,group,last_48,2026-06-22,Philadelphia,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1006,Norway,Senegal,NA,NA,group,last_48,2026-06-22,East Rutherford,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1007,Argentina,Austria,NA,NA,group,last_48,2026-06-22,Arlington,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1008,Jordan,Algeria,NA,NA,group,last_48,2026-06-22,Santa Clara,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1009,Portugal,Uzbekistan,NA,NA,group,last_48,2026-06-23,Houston,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1010,Colombia,DR Congo,NA,NA,group,last_48,2026-06-23,Zapopan,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1011,England,Ghana,NA,NA,group,last_48,2026-06-23,Foxborough,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1012,Panama,Croatia,NA,NA,group,last_48,2026-06-23,Toronto,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1013,Mexico,Czech Republic,NA,NA,group,last_48,2026-06-24,Mexico City,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1014,South Africa,South Korea,NA,NA,group,last_48,2026-06-24,Guadalupe,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1015,Canada,Switzerland,NA,NA,group,last_48,2026-06-24,Vancouver,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1016,Bosnia and Herzegovina,Qatar,NA,NA,group,last_48,2026-06-24,Seattle,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1017,Scotland,Brazil,NA,NA,group,last_48,2026-06-24,Miami Gardens,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1018,Morocco,Haiti,NA,NA,group,last_48,2026-06-24,Atlanta,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1019,United States,Turkey,NA,NA,group,last_48,2026-06-25,Inglewood,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1020,Paraguay,Australia,NA,NA,group,last_48,2026-06-25,Santa Clara,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1021,Curaçao,Ivory Coast,NA,NA,group,last_48,2026-06-25,Philadelphia,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1022,Ecuador,Germany,NA,NA,group,last_48,2026-06-25,East Rutherford,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1023,Japan,Sweden,NA,NA,group,last_48,2026-06-25,Arlington,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1024,Tunisia,Netherlands,NA,NA,group,last_48,2026-06-25,Kansas City,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1025,Egypt,Iran,NA,NA,group,last_48,2026-06-26,Seattle,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1026,New Zealand,Belgium,NA,NA,group,last_48,2026-06-26,Vancouver,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1027,Cape Verde,Saudi Arabia,NA,NA,group,last_48,2026-06-26,Houston,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1028,Uruguay,Spain,NA,NA,group,last_48,2026-06-26,Zapopan,Mexico,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1029,Norway,France,NA,NA,group,last_48,2026-06-26,Foxborough,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1030,Senegal,Iraq,NA,NA,group,last_48,2026-06-26,Toronto,Canada,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1031,Algeria,Austria,NA,NA,group,last_48,2026-06-27,Kansas City,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1032,Jordan,Argentina,NA,NA,group,last_48,2026-06-27,Arlington,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1033,Colombia,Portugal,NA,NA,group,last_48,2026-06-27,Miami Gardens,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1034,DR Congo,Uzbekistan,NA,NA,group,last_48,2026-06-27,Atlanta,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1035,Panama,England,NA,NA,group,last_48,2026-06-27,East Rutherford,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+1036,Croatia,Ghana,NA,NA,group,last_48,2026-06-27,Philadelphia,United States,2026,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup

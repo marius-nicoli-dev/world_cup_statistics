@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Cup Games</title>
+</head>
+<body>
+    <h1>World Cup Games</h1>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>World Cup</th>
+                <th>Date</th>
+                <th>Country 1</th>
+                <th>Goals 1</th>
+                <th>Goals 2</th>
+                <th>Country 2</th>
+                <th>Phase</th>
+                <th>Phase Rank</th>
+                <th>City</th>
+                <th>Host Country</th>
+                <th>Wikipedia</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games %}
+            <tr>
+                <td>{{ game.id }}</td>
+                <td>{{ game.world_cup.year }}</td>
+                <td>{{ game.date }}</td>
+                <td>{{ game.country_1.name }}</td>
+                <td>{{ game.goals_country_1 }}</td>
+                <td>{{ game.goals_country_2 }}</td>
+                <td>{{ game.country_2.name }}</td>
+                <td>{{ game.phase }}</td>
+                <td>{{ game.phase_rank }}</td>
+                <td>{{ game.home_city.name }}</td>
+                <td>{{ game.home_country.name }}</td>
+                <td>
+                    {% if game.wikipedia %}
+                        <a href="{{ game.wikipedia }}" target="_blank">Wikipedia</a>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
