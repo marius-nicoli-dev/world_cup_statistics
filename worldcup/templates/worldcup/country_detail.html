@@ -134,13 +134,44 @@ function goToCity(select) {
     	{{ participation_count }}
     </h3>
 
-    <h3>
-    	Editions:
-        {% for wc in participated_world_cups %}
-            {{ wc.year }}
-            ({{ wc.home_country.name }}{% if wc.home_country_second %}, {{ wc.home_country_second.name }}{% endif %}{% if wc.home_country_third %}, {{ wc.home_country_third.name }}{% endif %}){% if not forloop.last %},{% endif %}
-        {% endfor %}
-    </h3>
+    <h3>Editions</h3>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Edition</th>
+                <th>Best performance</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in edition_stats %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+
+                <td>
+                    <a href="{% url 'world_cup_detail' item.world_cup.year %}">
+                        {{ item.world_cup.year }}
+                    </a>
+                    ({{ item.world_cup.home_country.name }}
+                    {% if item.world_cup.home_country_second %}
+                        , {{ item.world_cup.home_country_second.name }}
+                    {% endif %}
+                    {% if item.world_cup.home_country_third %}
+                        , {{ item.world_cup.home_country_third.name }}
+                    {% endif %})
+                </td>
+
+                <td>
+                    {{ item.phase }}
+                    {% if item.phase_rank %}
+                        ({{ item.phase_rank }})
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 
     <h3>Statistics</h3>
 

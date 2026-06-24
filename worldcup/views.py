@@ -93,6 +93,36 @@ def country_detail(request, country_id, result_type=None):
 
     participation_count = participated_world_cups.count()
 
+    edition_stats = []
+
+    all_country_games = Game.objects.filter(
+        Q(country_1=country) | Q(country_2=country)
+    ).select_related("world_cup").order_by("date", "id")
+
+    for wc in participated_world_cups:
+        last_game = (
+            all_country_games
+            .filter(world_cup=wc)
+            .order_by("-date", "-id")
+            .first()
+        )
+
+        phase = last_game.phase if last_game else ""
+        phase_rank = last_game.phase_rank if last_game else ""
+
+        if phase == "final" and phase_rank == "last_2":
+            winner = wc.winner
+
+            if winner and winner.id == country.id:
+                phase = "winner"
+                phase_rank = ""
+
+        edition_stats.append({
+            "world_cup": wc,
+            "phase": phase,
+            "phase_rank": phase_rank,
+        })
+
     stats = {
         "played": 0,
         "wins": 0,
@@ -173,6 +203,7 @@ def country_detail(request, country_id, result_type=None):
         "participated_world_cups": participated_world_cups,
         "world_cups": world_cups,
         "cities": cities,
+        "edition_stats": edition_stats,
     })
 
 def continent_detail(request, continent_id, opponent_continent_id=None, result_type=None):
