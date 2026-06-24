@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ city.name }} - World Cup Games</title>
+</head>
+<body>
+    <h1>{{ city.name }} - World Cup Games</h1>
+
+    <form onsubmit="return false;">
+        <label for="country-select">Select a country:</label>
+
+        <select id="country-select" onchange="goToCountry(this)">
+            <option value="">---</option>
+
+            {% for c in countries %}
+                <option value="{{ c.id }}">{{ c.name }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br>
+
+    <form onsubmit="return false;">
+        <label for="continent-select">Select a continent:</label>
+
+        <select id="continent-select" onchange="goToContinent(this)">
+            <option value="">---</option>
+
+            {% for c in continents %}
+                <option value="{{ c.id }}">{{ c.name }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br>
+
+    <form onsubmit="return false;">
+        <label for="world-cup-select">Select a World Cup:</label>
+
+        <select id="world-cup-select" onchange="goToWorldCup(this)">
+            <option value="">---</option>
+
+            {% for wc in world_cups %}
+                <option value="{{ wc.year }}">{{ wc.year }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br/>
+
+    <form onsubmit="return false;">
+        <label for="city-select">Select a city:</label>
+
+        <select id="city-select" onchange="goToCity(this)">
+            <option value="">---</option>
+
+            {% for c in cities %}
+                <option value="{{ c.id }}"
+                    {% if c.id == city.id %}
+                        selected
+                    {% endif %}
+                >
+                    {{ c.name }} ({{ c.country.name }})
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br>
+
+    <p>
+        Country:
+        <a href="{% url 'country_detail' city.country.id %}">
+            {{ city.country.name }}
+        </a>
+    </p>
+
+    <p>Games displayed: {{ games|length }}</p>
+
+    <p>
+        <a href="{% url 'games_filter' %}">Back to filter page</a>
+    </p>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>World Cup</th>
+                <th>Date</th>
+                <th>Country 1</th>
+                <th>Goals 1</th>
+                <th>Goals 2</th>
+                <th>Country 2</th>
+                <th>Phase</th>
+                <th>Phase Rank</th>
+                <th>City</th>
+                <th>Host Country</th>
+                <th>Wikipedia</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games %}
+            <tr>
+                <td>{{ game.id }}</td>
+                <td>
+                    <a href="{% url 'world_cup_detail' game.world_cup.year %}">
+                        {{ game.world_cup.year }}
+                    </a>
+                </td>
+                <td>{{ game.date }}</td>
+                <td>
+                    <a href="{% url 'country_detail' game.country_1.id %}">
+                        {{ game.country_1.name }}
+                    </a>
+                </td>
+                <td>{{ game.goals_country_1 }}</td>
+                <td>{{ game.goals_country_2 }}</td>
+                <td>
+                    <a href="{% url 'country_detail' game.country_2.id %}">
+                        {{ game.country_2.name }}
+                    </a>
+                </td>
+                <td>{{ game.phase }}</td>
+                <td>{{ game.phase_rank }}</td>
+                <td>{{ game.home_city.name }}</td>
+                <td>{{ game.home_country.name }}</td>
+                <td>
+                    {% if game.wikipedia %}
+                        <a href="{{ game.wikipedia }}" target="_blank">Wikipedia</a>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+    function goToCity(select) {
+        if (select.value) {
+            window.location.href = "/city/" + select.value + "/";
+        }
+    }
+
+    function goToCountry(select) {
+        if (select.value) {
+            window.location.href = "/country/" + select.value + "/";
+        }
+    }
+
+    function goToContinent(select) {
+        if (select.value) {
+            window.location.href = "/continent/" + select.value + "/";
+        }
+    }
+
+    function goToWorldCup(select) {
+        if (select.value) {
+            window.location.href = "/world-cup/" + select.value + "/";
+        }
+    }
+    </script>
+</body>
+</html>

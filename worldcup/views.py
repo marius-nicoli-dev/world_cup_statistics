@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.db.models import Q
-from .models import Game, WorldCup, Country, Continent
+from .models import Game, WorldCup, Country, Continent, City
 
 def games_list(request):
     games = Game.objects.select_related(
@@ -46,6 +46,7 @@ def games_filter(request):
     countries = Country.objects.order_by("name")
     continents = Continent.objects.order_by("name")
     world_cups = WorldCup.objects.order_by("year")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
     return render(request, "worldcup/games_filter.html", {
         "games": games,
         "world_cups": world_cups,
@@ -54,6 +55,7 @@ def games_filter(request):
         "countries": countries,
         "continents": continents,
         "world_cups": world_cups,
+        "cities": cities,
     })
 
 def country_detail(request, country_id, result_type=None):
@@ -156,8 +158,8 @@ def country_detail(request, country_id, result_type=None):
 
     countries = Country.objects.order_by("name")
     continents = Continent.objects.order_by("name")
-
     world_cups = WorldCup.objects.order_by("year")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
 
     return render(request, "worldcup/country_detail.html", {
         "country": country,
@@ -170,6 +172,7 @@ def country_detail(request, country_id, result_type=None):
         "continents": continents,
         "participated_world_cups": participated_world_cups,
         "world_cups": world_cups,
+        "cities": cities,
     })
 
 def continent_detail(request, continent_id, opponent_continent_id=None, result_type=None):
@@ -304,6 +307,8 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
     continents = Continent.objects.order_by("name")
     countries = Country.objects.order_by("name")
     world_cups = WorldCup.objects.order_by("year")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
+
     return render(request, "worldcup/continent_detail.html", {
         "continent": continent,
         "games": games,
@@ -313,6 +318,7 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
         "opponent_continent": opponent_continent,
         "result_type": result_type,
         "world_cups": world_cups,
+        "cities": cities,
     })
 
 def world_cup_detail(request, year):
@@ -345,11 +351,40 @@ def world_cup_detail(request, year):
     countries = Country.objects.order_by("name")
     continents = Continent.objects.order_by("name")
     world_cups = WorldCup.objects.order_by("year")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
 
     return render(request, "worldcup/world_cup_detail.html", {
         "world_cup": world_cup,
         "games": games,
         "total_goals": total_goals,
+        "countries": countries,
+        "continents": continents,
+        "world_cups": world_cups,
+        "cities": cities,
+    })
+
+def city_detail(request, city_id):
+    city = City.objects.select_related("country").get(id=city_id)
+
+    games = Game.objects.select_related(
+        "country_1",
+        "country_2",
+        "home_city",
+        "home_country",
+        "world_cup",
+    ).filter(
+        home_city=city
+    ).order_by("date", "id")
+
+    cities = City.objects.select_related("country").order_by("name", "country__name")
+    countries = Country.objects.order_by("name")
+    continents = Continent.objects.order_by("name")
+    world_cups = WorldCup.objects.order_by("year")
+
+    return render(request, "worldcup/city_detail.html", {
+        "city": city,
+        "games": games,
+        "cities": cities,
         "countries": countries,
         "continents": continents,
         "world_cups": world_cups,

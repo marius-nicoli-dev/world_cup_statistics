@@ -38,4 +38,9 @@ urlpatterns = [
         views.world_cup_detail, 
         name="world_cup_detail"
     ),
+
+    path("city/<int:city_id>/", 
+        views.city_detail, 
+        name="city_detail"
+    ),
 ]
