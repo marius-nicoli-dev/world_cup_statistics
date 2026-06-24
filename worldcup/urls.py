@@ -30,7 +30,12 @@ urlpatterns = [
     ),
 
     path("continent/<int:continent_id>/", 
-         views.continent_detail, 
-         name="continent_detail"
+        views.continent_detail, 
+        name="continent_detail"
+    ),
+
+    path("world-cup/<int:year>/", 
+        views.world_cup_detail, 
+        name="world_cup_detail"
     ),
 ]

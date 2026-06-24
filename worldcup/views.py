@@ -305,3 +305,43 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
         "opponent_continent": opponent_continent,
         "result_type": result_type,
     })
+
+def world_cup_detail(request, year):
+    world_cup = WorldCup.objects.select_related(
+        "home_country",
+        "home_country_second",
+        "home_country_third",
+        "winner",
+    ).get(year=year)
+
+    games = Game.objects.select_related(
+        "country_1",
+        "country_2",
+        "home_city",
+        "home_country",
+        "world_cup",
+    ).filter(
+        world_cup=world_cup
+    ).order_by("date", "id")
+
+    total_goals = 0
+
+    for game in games:
+        if game.goals_country_1.isdigit():
+            total_goals += int(game.goals_country_1)
+
+        if game.goals_country_2.isdigit():
+            total_goals += int(game.goals_country_2)
+
+    countries = Country.objects.order_by("name")
+    continents = Continent.objects.order_by("name")
+    world_cups = WorldCup.objects.order_by("year")
+
+    return render(request, "worldcup/world_cup_detail.html", {
+        "world_cup": world_cup,
+        "games": games,
+        "total_goals": total_goals,
+        "countries": countries,
+        "continents": continents,
+        "world_cups": world_cups,
+    })
