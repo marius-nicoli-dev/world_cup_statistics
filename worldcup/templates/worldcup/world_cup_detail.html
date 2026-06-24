@@ -3,6 +3,32 @@
 <head>
     <title>World Cup {{ world_cup.year }}</title>
 </head>
+
+<script>
+    function goToCountry(select) {
+        if (select.value) {
+            window.location.href = "/country/" + select.value + "/";
+        }
+    }
+
+    function goToContinent(select) {
+        if (select.value) {
+            window.location.href = "/continent/" + select.value + "/";
+        }
+    }
+
+    function goToWorldCup(select) {
+        if (select.value) {
+            window.location.href = "/world-cup/" + select.value + "/";
+        }
+    }
+    function goToCity(select) {
+        if (select.value) {
+            window.location.href = "/city/" + select.value + "/";
+        }
+    }
+</script>
+
 <body>
     <h1>World Cup {{ world_cup.year }}</h1>
 
@@ -49,6 +75,24 @@
                     {% endif %}
                 >
                     {{ wc.year }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br/>
+
+    <form onsubmit="return false;">
+        <label for="city-select">
+            Select a city:
+        </label>
+
+        <select id="city-select" onchange="goToCity(this)">
+            <option value="">---</option>
+
+            {% for c in cities %}
+                <option value="{{ c.id }}">
+                    {{ c.name }} ({{ c.country.name }})
                 </option>
             {% endfor %}
         </select>
@@ -140,25 +184,5 @@
             {% endfor %}
         </tbody>
     </table>
-
-    <script>
-    function goToCountry(select) {
-        if (select.value) {
-            window.location.href = "/country/" + select.value + "/";
-        }
-    }
-
-    function goToContinent(select) {
-        if (select.value) {
-            window.location.href = "/continent/" + select.value + "/";
-        }
-    }
-
-    function goToWorldCup(select) {
-        if (select.value) {
-            window.location.href = "/world-cup/" + select.value + "/";
-        }
-    }
-    </script>
 </body>
 </html>

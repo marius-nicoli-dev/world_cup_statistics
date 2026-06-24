@@ -22,6 +22,12 @@ function goToWorldCup(select) {
     }
 }
 
+function goToCity(select) {
+    if (select.value) {
+        window.location.href = "/city/" + select.value + "/";
+    }
+}
+
 </script>
 
 <body>
@@ -101,6 +107,23 @@ function goToWorldCup(select) {
             {% for wc in world_cups %}
                 <option value="{{ wc.year }}">
                     {{ wc.year }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br/>
+    <form onsubmit="return false;">
+        <label for="city-select">
+            Select a city:
+        </label>
+
+        <select id="city-select" onchange="goToCity(this)">
+            <option value="">---</option>
+
+            {% for c in cities %}
+                <option value="{{ c.id }}">
+                    {{ c.name }} ({{ c.country.name }})
                 </option>
             {% endfor %}
         </select>
