@@ -45,6 +45,7 @@ def games_filter(request):
 
     countries = Country.objects.order_by("name")
     continents = Continent.objects.order_by("name")
+    world_cups = WorldCup.objects.order_by("year")
     return render(request, "worldcup/games_filter.html", {
         "games": games,
         "world_cups": world_cups,
@@ -52,6 +53,7 @@ def games_filter(request):
         "total_goals": total_goals,
         "countries": countries,
         "continents": continents,
+        "world_cups": world_cups,
     })
 
 def country_detail(request, country_id, result_type=None):
@@ -83,11 +85,11 @@ def country_detail(request, country_id, result_type=None):
             .order_by("world_cup__year")
     )
 
-    world_cups = WorldCup.objects.filter(
+    participated_world_cups = WorldCup.objects.filter(
         year__in=participations
     ).order_by("year")
 
-    participation_count = world_cups.count()
+    participation_count = participated_world_cups.count()
 
     stats = {
         "played": 0,
@@ -154,6 +156,9 @@ def country_detail(request, country_id, result_type=None):
 
     countries = Country.objects.order_by("name")
     continents = Continent.objects.order_by("name")
+
+    world_cups = WorldCup.objects.order_by("year")
+
     return render(request, "worldcup/country_detail.html", {
         "country": country,
         "games": games,
@@ -163,6 +168,8 @@ def country_detail(request, country_id, result_type=None):
         "result_type": result_type,
         "countries": countries,
         "continents": continents,
+        "participated_world_cups": participated_world_cups,
+        "world_cups": world_cups,
     })
 
 def continent_detail(request, continent_id, opponent_continent_id=None, result_type=None):
@@ -296,6 +303,7 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
         continent_stats.append(stats)
     continents = Continent.objects.order_by("name")
     countries = Country.objects.order_by("name")
+    world_cups = WorldCup.objects.order_by("year")
     return render(request, "worldcup/continent_detail.html", {
         "continent": continent,
         "games": games,
@@ -304,6 +312,7 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
         "countries": countries,
         "opponent_continent": opponent_continent,
         "result_type": result_type,
+        "world_cups": world_cups,
     })
 
 def world_cup_detail(request, year):

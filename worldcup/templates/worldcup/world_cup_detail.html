@@ -7,10 +7,10 @@
     <h1>World Cup {{ world_cup.year }}</h1>
 
     <form onsubmit="return false;">
-        <label for="country-select">Country:</label>
+        <label for="country-select">Select a country:</label>
 
         <select id="country-select" onchange="goToCountry(this)">
-            <option value="">Select a country...</option>
+            <option value="">---</option>
 
             {% for c in countries %}
                 <option value="{{ c.id }}">{{ c.name }}</option>
@@ -21,10 +21,10 @@
     <br>
 
     <form onsubmit="return false;">
-        <label for="continent-select">Continent:</label>
+        <label for="continent-select">Select a continent:</label>
 
         <select id="continent-select" onchange="goToContinent(this)">
-            <option value="">Select a continent...</option>
+            <option value="">---</option>
 
             {% for c in continents %}
                 <option value="{{ c.id }}">{{ c.name }}</option>
@@ -38,6 +38,10 @@
         <label for="world-cup-select">World Cup:</label>
 
         <select id="world-cup-select" onchange="goToWorldCup(this)">
+            <option value="">
+                ---
+            </option>
+
             {% for wc in world_cups %}
                 <option value="{{ wc.year }}"
                     {% if wc.year == world_cup.year %}

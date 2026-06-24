@@ -2,11 +2,6 @@
 <html>
 <head>
     <title>{{ country.name }} - World Cup Games</title>
-    <style>
-        .numeric {
-            text-align: center;
-        }
-    </style>
 </head>
 <script>
 function goToCountry(select) {
@@ -26,6 +21,11 @@ function goToContinent(select) {
         window.location.href = "/continent/" + select.value + "/";
     }
 }
+function goToWorldCup(select) {
+    if (select.value) {
+        window.location.href = "/world-cup/" + select.value + "/";
+    }
+}
 </script>
 <body>
     <h1>
@@ -40,12 +40,12 @@ function goToContinent(select) {
     </h1>
     <form>
         <label for="country-select">
-            Country:
+            Select a country:
         </label>
 
         <select id="country-select" onchange="goToCountry(this)">
             <option value="">
-                Select a country...
+                ---
             </option>
 
             {% for c in countries %}
@@ -62,12 +62,12 @@ function goToContinent(select) {
     <br/>
     <form onsubmit="return false;">
         <label for="continent-select">
-            Continent:
+            Select a continent:
         </label>
 
         <select id="continent-select" onchange="goToContinent(this)">
             <option value="">
-                Select a continent...
+                ---
             </option>
 
             {% for c in continents %}
@@ -77,6 +77,24 @@ function goToContinent(select) {
                     {% endif %}
                 >
                     {{ c.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+    <br/>
+    <form onsubmit="return false;">
+        <label for="world-cup-select">
+            Select a World Cup:
+        </label>
+
+        <select id="world-cup-select" onchange="goToWorldCup(this)">
+            <option value="">
+                ---
+            </option>
+
+            {% for wc in world_cups %}
+                <option value="{{ wc.year }}">
+                    {{ wc.year }}
                 </option>
             {% endfor %}
         </select>
@@ -182,14 +200,14 @@ function goToContinent(select) {
     			<a href="{% url 'country_detail' game.country_1.id %}">
         			{{ game.country_1.name }}
     			</a>
-		</td>
+		    </td>
                 <td>{{ game.goals_country_1 }}</td>
                 <td>{{ game.goals_country_2 }}</td>
                 <td>
     			<a href="{% url 'country_detail' game.country_2.id %}">
         			{{ game.country_2.name }}
     			</a>
-		</td>
+		    </td>
                 <td>{{ game.phase }}</td>
                 <td>{{ game.phase_rank }}</td>
                 <td>{{ game.home_city.name }}</td>

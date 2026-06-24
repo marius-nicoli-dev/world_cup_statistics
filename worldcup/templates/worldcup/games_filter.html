@@ -29,6 +29,12 @@ function goToContinent(select) {
     }
 }
 
+function goToWorldCup(select) {
+    if (select.value) {
+        window.location.href = "/world-cup/" + select.value + "/";
+    }
+}
+
 </script>
 
 <body>
@@ -36,12 +42,12 @@ function goToContinent(select) {
 
     <form>
         <label for="country-select">
-            Country:
+            Select a country:
         </label>
 
         <select id="country-select" onchange="goToCountry(this)">
             <option value="">
-                Select a country...
+                ---
             </option>
 
             {% for c in countries %}
@@ -60,12 +66,12 @@ function goToContinent(select) {
 
     <form onsubmit="return false;">
         <label for="continent-select">
-            Continent:
+            Select a continent:
         </label>
 
         <select id="continent-select" onchange="goToContinent(this)">
             <option value="">
-                Select a continent...
+                ---
             </option>
 
             {% for c in continents %}
@@ -75,7 +81,24 @@ function goToContinent(select) {
             {% endfor %}
         </select>
     </form>
+    <br/>
+    <form onsubmit="return false;">
+        <label for="world-cup-select">
+            Select a World Cup:
+        </label>
 
+        <select id="world-cup-select" onchange="goToWorldCup(this)">
+            <option value="">
+                ---
+            </option>
+
+            {% for wc in world_cups %}
+                <option value="{{ wc.year }}">
+                    {{ wc.year }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
     <br/>
 
     <form method="get">
