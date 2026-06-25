@@ -7,24 +7,24 @@
 <script>
     function goToCountry(select) {
         if (select.value) {
-            window.location.href = "/country/" + select.value + "/";
+            window.location.href = "/worldcup/country/" + select.value + "/";
         }
     }
 
     function goToContinent(select) {
         if (select.value) {
-            window.location.href = "/continent/" + select.value + "/";
+            window.location.href = "/worldcup/continent/" + select.value + "/";
         }
     }
 
     function goToWorldCup(select) {
         if (select.value) {
-            window.location.href = "/world-cup/" + select.value + "/";
+            window.location.href = "/worldcup/world-cup/" + select.value + "/";
         }
     }
     function goToCity(select) {
         if (select.value) {
-            window.location.href = "/city/" + select.value + "/";
+            window.location.href = "/worldcup/city/" + select.value + "/";
         }
     }
     function goToRanking(select) {
@@ -32,10 +32,10 @@
             return;
 
         if (select.value == "all")
-            window.location.href = "/team-ranking/";
+            window.location.href = "/worldcup/team-ranking/";
         else
             window.location.href =
-                "/team-ranking/?continent=" + select.value;
+                "/worldcup/team-ranking/?continent=" + select.value;
     }
 </script>
 
