@@ -43,4 +43,9 @@ urlpatterns = [
         views.city_detail, 
         name="city_detail"
     ),
+
+    path("team-ranking/", 
+        views.team_ranking, 
+        name="team_ranking"
+    ),
 ]

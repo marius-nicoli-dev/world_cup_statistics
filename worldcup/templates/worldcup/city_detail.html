@@ -3,6 +3,45 @@
 <head>
     <title>{{ city.name }} - World Cup Games</title>
 </head>
+
+<script>
+    function goToCity(select) {
+        if (select.value) {
+            window.location.href = "/city/" + select.value + "/";
+        }
+    }
+
+    function goToCountry(select) {
+        if (select.value) {
+            window.location.href = "/country/" + select.value + "/";
+        }
+    }
+
+    function goToContinent(select) {
+        if (select.value) {
+            window.location.href = "/continent/" + select.value + "/";
+        }
+    }
+
+    function goToWorldCup(select) {
+        if (select.value) {
+            window.location.href = "/world-cup/" + select.value + "/";
+        }
+    }
+
+    function goToRanking(select) {
+        if (!select.value)
+            return;
+
+        if (select.value == "all")
+            window.location.href = "/team-ranking/";
+        else
+            window.location.href =
+                "/team-ranking/?continent=" + select.value;
+    }
+
+</script>
+
 <body>
     <h1>{{ city.name }} - World Cup Games</h1>
 
@@ -66,8 +105,29 @@
         </select>
     </form>
 
-    <br>
+    <br/>
+    <form onsubmit="return false;">
+        <label for="ranking-select">
+            Select a ranking:
+        </label>
 
+        <select id="ranking-select" onchange="goToRanking(this)">
+            <option value="">
+                ---
+            </option>
+
+            <option value="all">
+                All teams
+            </option>
+
+            {% for c in continents %}
+                <option value="{{ c.id }}">
+                    {{ c.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+    <br/>
     <p>
         Country:
         <a href="{% url 'country_detail' city.country.id %}">
@@ -134,30 +194,6 @@
         </tbody>
     </table>
 
-    <script>
-    function goToCity(select) {
-        if (select.value) {
-            window.location.href = "/city/" + select.value + "/";
-        }
-    }
 
-    function goToCountry(select) {
-        if (select.value) {
-            window.location.href = "/country/" + select.value + "/";
-        }
-    }
-
-    function goToContinent(select) {
-        if (select.value) {
-            window.location.href = "/continent/" + select.value + "/";
-        }
-    }
-
-    function goToWorldCup(select) {
-        if (select.value) {
-            window.location.href = "/world-cup/" + select.value + "/";
-        }
-    }
-    </script>
 </body>
 </html>

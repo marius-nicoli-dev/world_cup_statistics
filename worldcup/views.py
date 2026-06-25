@@ -47,6 +47,7 @@ def games_filter(request):
     continents = Continent.objects.order_by("name")
     world_cups = WorldCup.objects.order_by("year")
     cities = City.objects.select_related("country").order_by("name", "country__name")
+    
     return render(request, "worldcup/games_filter.html", {
         "games": games,
         "world_cups": world_cups,
@@ -418,5 +419,114 @@ def city_detail(request, city_id):
         "cities": cities,
         "countries": countries,
         "continents": continents,
+        "world_cups": world_cups,
+    })
+
+def get_country_edition_results(country):
+    results = []
+
+    participated_years = (
+        Game.objects
+        .filter(Q(country_1=country) | Q(country_2=country))
+        .values_list("world_cup__year", flat=True)
+        .distinct()
+    )
+
+    world_cups = WorldCup.objects.filter(
+        year__in=participated_years
+    ).order_by("year")
+
+    for wc in world_cups:
+        last_game = (
+            Game.objects
+            .filter(Q(country_1=country) | Q(country_2=country), world_cup=wc)
+            .order_by("-date", "-id")
+            .first()
+        )
+
+        if not last_game:
+            continue
+
+        result = last_game.phase_rank
+
+        if wc.winner and wc.winner_id == country.id:
+            result = "winner"
+
+        results.append({
+            "world_cup": wc,
+            "result": result,
+            "phase": last_game.phase,
+        })
+
+    return results
+
+def team_ranking(request):
+    selected_continent_id = request.GET.get("continent")
+
+    countries = Country.objects.select_related("continent").order_by("name")
+
+    if selected_continent_id:
+        countries = countries.filter(continent_id=selected_continent_id)
+
+    result_keys = [
+        "winner",
+        "last_2",
+        "last_3_4",
+        "last_4",
+        "last_8",
+        "last_12",
+        "last_13",
+        "last_16",
+        "last_24",
+        "last_32",
+        "last_48",
+    ]
+
+    ranking = []
+
+    for country in countries:
+        counts = {key: 0 for key in result_keys}
+
+        edition_results = get_country_edition_results(country)
+
+        for item in edition_results:
+            result = item["result"]
+
+            if result in counts:
+                counts[result] += 1
+
+        ranking.append({
+            "country": country,
+            "counts": counts,
+        })
+
+    ranking.sort(
+        key=lambda row: (
+            -row["counts"]["winner"],
+            -row["counts"]["last_2"],
+            -row["counts"]["last_3_4"],
+            -row["counts"]["last_4"],
+            -row["counts"]["last_8"],
+            -row["counts"]["last_12"],
+            -row["counts"]["last_13"],
+            -row["counts"]["last_16"],
+            -row["counts"]["last_24"],
+            -row["counts"]["last_32"],
+            -row["counts"]["last_48"],
+            row["country"].name,
+        )
+    )
+
+    continents = Continent.objects.order_by("name")
+    countries = Country.objects.order_by("name")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
+    world_cups = WorldCup.objects.order_by("year")
+    return render(request, "worldcup/team_ranking.html", {
+        "ranking": ranking,
+        "continents": continents,
+        "selected_continent_id": selected_continent_id,
+        "result_keys": result_keys,
+        "countries": countries,
+        "cities": cities,
         "world_cups": world_cups,
     })

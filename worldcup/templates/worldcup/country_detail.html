@@ -4,33 +4,43 @@
     <title>{{ country.name }} - World Cup Games</title>
 </head>
 <script>
-function goToCountry(select) {
-    if (select.value) {
-        window.location.href = "/country/" + select.value + "/";
+    function goToCountry(select) {
+        if (select.value) {
+            window.location.href = "/country/" + select.value + "/";
+        }
     }
-}
-</script>
-<script>
-function goToCountry(select) {
-    if (select.value) {
-        window.location.href = "/country/" + select.value + "/";
+
+    function goToCountry(select) {
+        if (select.value) {
+            window.location.href = "/country/" + select.value + "/";
+        }
     }
-}
-function goToContinent(select) {
-    if (select.value) {
-        window.location.href = "/continent/" + select.value + "/";
+    function goToContinent(select) {
+        if (select.value) {
+            window.location.href = "/continent/" + select.value + "/";
+        }
     }
-}
-function goToWorldCup(select) {
-    if (select.value) {
-        window.location.href = "/world-cup/" + select.value + "/";
+    function goToWorldCup(select) {
+        if (select.value) {
+            window.location.href = "/world-cup/" + select.value + "/";
+        }
     }
-}
-function goToCity(select) {
-    if (select.value) {
-        window.location.href = "/city/" + select.value + "/";
+    function goToCity(select) {
+        if (select.value) {
+            window.location.href = "/city/" + select.value + "/";
+        }
     }
-}
+
+    function goToRanking(select) {
+        if (!select.value)
+            return;
+
+        if (select.value == "all")
+            window.location.href = "/team-ranking/";
+        else
+            window.location.href =
+                "/team-ranking/?continent=" + select.value;
+    }
 </script>
 <body>
     <h1>
@@ -121,7 +131,29 @@ function goToCity(select) {
             {% endfor %}
         </select>
     </form>
+    <br/>
+    <form onsubmit="return false;">
+        <label for="ranking-select">
+            Select a ranking:
+        </label>
 
+        <select id="ranking-select" onchange="goToRanking(this)">
+            <option value="">
+                ---
+            </option>
+
+            <option value="all">
+                All teams
+            </option>
+
+            {% for c in continents %}
+                <option value="{{ c.id }}">
+                    {{ c.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+    <br/>
     <h3><p>
         Continent:
         <a href="{% url 'continent_detail' country.continent.id %}">

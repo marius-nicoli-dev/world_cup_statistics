@@ -27,6 +27,16 @@
             window.location.href = "/city/" + select.value + "/";
         }
     }
+    function goToRanking(select) {
+        if (!select.value)
+            return;
+
+        if (select.value == "all")
+            window.location.href = "/team-ranking/";
+        else
+            window.location.href =
+                "/team-ranking/?continent=" + select.value;
+    }
 </script>
 
 <body>
@@ -58,7 +68,31 @@
         </select>
     </form>
 
-    <br>
+    <br/>
+
+    <form onsubmit="return false;">
+        <label for="ranking-select">
+            Select a ranking:
+        </label>
+
+        <select id="ranking-select" onchange="goToRanking(this)">
+            <option value="">
+                ---
+            </option>
+
+            <option value="all">
+                All teams
+            </option>
+
+            {% for c in continents %}
+                <option value="{{ c.id }}">
+                    {{ c.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <br/>
 
     <form onsubmit="return false;">
         <label for="world-cup-select">World Cup:</label>
