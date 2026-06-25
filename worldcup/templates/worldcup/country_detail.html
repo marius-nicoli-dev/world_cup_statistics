@@ -185,13 +185,7 @@
                     <a href="{% url 'world_cup_detail' item.world_cup.year %}">
                         {{ item.world_cup.year }}
                     </a>
-                    ({{ item.world_cup.home_country.name }}
-                    {% if item.world_cup.home_country_second %}
-                        , {{ item.world_cup.home_country_second.name }}
-                    {% endif %}
-                    {% if item.world_cup.home_country_third %}
-                        , {{ item.world_cup.home_country_third.name }}
-                    {% endif %})
+                    ({{ item.world_cup.home_country.name }}{% if item.world_cup.home_country_second %}, {{ item.world_cup.home_country_second.name }}{% endif %}{% if item.world_cup.home_country_third %}, {{ item.world_cup.home_country_third.name }}{% endif %})
                 </td>
 
                 <td>

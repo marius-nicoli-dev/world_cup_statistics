@@ -244,19 +244,28 @@ def continent_detail(request, continent_id, opponent_continent_id=None, result_t
             goals_1 = int(game.goals_country_1)
             goals_2 = int(game.goals_country_2)
 
-            if game.country_1.continent_id == continent.id:
-                goals_for = goals_1
-                goals_against = goals_2
-            else:
-                goals_for = goals_2
-                goals_against = goals_1
+            if opponent_continent.id == continent.id:
+                if result_type == "wins" and goals_1 != goals_2:
+                    filtered_games.append(game)
+                elif result_type == "draws" and goals_1 == goals_2:
+                    filtered_games.append(game)
+                elif result_type == "losses":
+                    pass
 
-            if result_type == "wins" and goals_for > goals_against:
-                filtered_games.append(game)
-            elif result_type == "draws" and goals_for == goals_against:
-                filtered_games.append(game)
-            elif result_type == "losses" and goals_for < goals_against:
-                filtered_games.append(game)
+            else:
+                if game.country_1.continent_id == continent.id:
+                    goals_for = goals_1
+                    goals_against = goals_2
+                else:
+                    goals_for = goals_2
+                    goals_against = goals_1
+
+                if result_type == "wins" and goals_for > goals_against:
+                    filtered_games.append(game)
+                elif result_type == "draws" and goals_for == goals_against:
+                    filtered_games.append(game)
+                elif result_type == "losses" and goals_for < goals_against:
+                    filtered_games.append(game)
 
         games = filtered_games
     other_continents = Continent.objects.exclude(id=continent.id).order_by("name")

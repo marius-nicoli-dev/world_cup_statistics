@@ -68,29 +68,6 @@
         </select>
     </form>
 
-    <br/>
-
-    <form onsubmit="return false;">
-        <label for="ranking-select">
-            Select a ranking:
-        </label>
-
-        <select id="ranking-select" onchange="goToRanking(this)">
-            <option value="">
-                ---
-            </option>
-
-            <option value="all">
-                All teams
-            </option>
-
-            {% for c in continents %}
-                <option value="{{ c.id }}">
-                    {{ c.name }}
-                </option>
-            {% endfor %}
-        </select>
-    </form>
 
     <br/>
 
@@ -127,6 +104,29 @@
             {% for c in cities %}
                 <option value="{{ c.id }}">
                     {{ c.name }} ({{ c.country.name }})
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+    <br/>
+
+    <form onsubmit="return false;">
+        <label for="ranking-select">
+            Select a ranking:
+        </label>
+
+        <select id="ranking-select" onchange="goToRanking(this)">
+            <option value="">
+                ---
+            </option>
+
+            <option value="all">
+                All teams
+            </option>
+
+            {% for c in continents %}
+                <option value="{{ c.id }}">
+                    {{ c.name }}
                 </option>
             {% endfor %}
         </select>
