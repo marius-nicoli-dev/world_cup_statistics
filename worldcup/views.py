@@ -495,6 +495,7 @@ def team_ranking(request):
 
     for country in countries:
         counts = {key: 0 for key in result_keys}
+        years = {key: [] for key in result_keys}
 
         edition_results = get_country_edition_results(country)
 
@@ -503,11 +504,14 @@ def team_ranking(request):
 
             if result in counts:
                 counts[result] += 1
+                years[result].append(item["world_cup"].year)
 
         ranking.append({
             "country": country,
             "counts": counts,
             "total": len(edition_results),
+            "years": years,
+            "total_years": [item["world_cup"].year for item in edition_results],
         })
 
     ranking.sort(

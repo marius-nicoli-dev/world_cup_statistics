@@ -181,18 +181,18 @@
                     </a>
                 </td>
 
-                <td>{% if row.counts.winner %}{{ row.counts.winner }}{% endif %}</td>
-                <td>{% if row.counts.last_2 %}{{ row.counts.last_2 }}{% endif %}</td>
-                <td>{% if row.counts.last_3_4 %}{{ row.counts.last_3_4 }}{% endif %}</td>
-                <td>{% if row.counts.last_4 %}{{ row.counts.last_4 }}{% endif %}</td>
-                <td>{% if row.counts.last_8 %}{{ row.counts.last_8 }}{% endif %}</td>
-                <td>{% if row.counts.last_12 %}{{ row.counts.last_12 }}{% endif %}</td>
-                <td>{% if row.counts.last_13 %}{{ row.counts.last_13 }}{% endif %}</td>
-                <td>{% if row.counts.last_16 %}{{ row.counts.last_16 }}{% endif %}</td>
-                <td>{% if row.counts.last_24 %}{{ row.counts.last_24 }}{% endif %}</td>
-                <td>{% if row.counts.last_32 %}{{ row.counts.last_32 }}{% endif %}</td>
-                <td>{% if row.counts.last_48 %}{{ row.counts.last_48 }}{% endif %}</td>
-                <td>{{ row.total }}</td>
+                <td title="{{ row.years.winner|join:', ' }}">{% if row.counts.winner %}{{ row.counts.winner }}{% endif %}</td>
+                <td title="{{ row.years.last_2|join:', ' }}">{% if row.counts.last_2 %}{{ row.counts.last_2 }}{% endif %}</td>
+                <td title="{{ row.years.last_3_4|join:', ' }}">{% if row.counts.last_3_4 %}{{ row.counts.last_3_4 }}{% endif %}</td>
+                <td title="{{ row.years.last_4|join:', ' }}">{% if row.counts.last_4 %}{{ row.counts.last_4 }}{% endif %}</td>
+                <td title="{{ row.years.last_8|join:', ' }}">{% if row.counts.last_8 %}{{ row.counts.last_8 }}{% endif %}</td>
+                <td title="{{ row.years.last_12|join:', ' }}">{% if row.counts.last_12 %}{{ row.counts.last_12 }}{% endif %}</td>
+                <td title="{{ row.years.last_13|join:', ' }}">{% if row.counts.last_13 %}{{ row.counts.last_13 }}{% endif %}</td>
+                <td title="{{ row.years.last_16|join:', ' }}">{% if row.counts.last_16 %}{{ row.counts.last_16 }}{% endif %}</td>
+                <td title="{{ row.years.last_24|join:', ' }}">{% if row.counts.last_24 %}{{ row.counts.last_24 }}{% endif %}</td>
+                <td title="{{ row.years.last_32|join:', ' }}">{% if row.counts.last_32 %}{{ row.counts.last_32 }}{% endif %}</td>
+                <td title="{{ row.years.last_48|join:', ' }}">{% if row.counts.last_48 %}{{ row.counts.last_48 }}{% endif %}</td>
+                <td title="{{ row.total_years|join:', ' }}">{{ row.total }}</td>
             </tr>
             {% endfor %}
         </tbody>
