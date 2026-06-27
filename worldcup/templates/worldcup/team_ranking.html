@@ -161,6 +161,7 @@
                 <th>Last 24</th>
                 <th>Last 32</th>
                 <th>Last 48</th>
+                <th>Total</th>
             </tr>
         </thead>
         <tbody>
@@ -191,6 +192,7 @@
                 <td>{% if row.counts.last_24 %}{{ row.counts.last_24 }}{% endif %}</td>
                 <td>{% if row.counts.last_32 %}{{ row.counts.last_32 }}{% endif %}</td>
                 <td>{% if row.counts.last_48 %}{{ row.counts.last_48 }}{% endif %}</td>
+                <td>{{ row.total }}</td>
             </tr>
             {% endfor %}
         </tbody>

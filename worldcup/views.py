@@ -507,6 +507,7 @@ def team_ranking(request):
         ranking.append({
             "country": country,
             "counts": counts,
+            "total": len(edition_results),
         })
 
     ranking.sort(
@@ -538,4 +539,44 @@ def team_ranking(request):
         "countries": countries,
         "cities": cities,
         "world_cups": world_cups,
+    })
+
+def date_filter(request):
+    selected_month = request.GET.get("month")
+    selected_day = request.GET.get("day")
+
+    games = Game.objects.select_related(
+        "country_1",
+        "country_2",
+        "home_city",
+        "home_country",
+        "world_cup",
+    )
+
+    if selected_month and selected_day:
+        games = games.filter(
+            date__month=int(selected_month),
+            date__day=int(selected_day),
+        )
+
+    games = games.order_by("date", "id")
+
+    months = range(1, 13)
+    days = range(1, 32)
+
+    countries = Country.objects.order_by("name")
+    continents = Continent.objects.order_by("name")
+    world_cups = WorldCup.objects.order_by("year")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
+
+    return render(request, "worldcup/date_filter.html", {
+        "games": games,
+        "months": months,
+        "days": days,
+        "selected_month": selected_month,
+        "selected_day": selected_day,
+        "countries": countries,
+        "continents": continents,
+        "world_cups": world_cups,
+        "cities": cities,
     })

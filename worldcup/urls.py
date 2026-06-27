@@ -48,4 +48,9 @@ urlpatterns = [
         views.team_ranking, 
         name="team_ranking"
     ),
+
+    path("date-filter/",
+        views.date_filter,
+        name="date_filter"
+    ),
 ]

@@ -187,6 +187,12 @@
 
     </form>
 
+    <p>
+        <a href="{% url 'date_filter' %}">
+            Browse matches by calendar date
+        </a>
+    </p>
+
     <p>Games displayed: {{ games|length }}</p>
     <p>Total goals: {{ total_goals }}</p>
     <table border="1" cellpadding="5" cellspacing="0">
