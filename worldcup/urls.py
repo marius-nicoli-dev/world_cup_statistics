@@ -53,4 +53,11 @@ urlpatterns = [
         views.date_filter,
         name="date_filter"
     ),
+
+    path(
+        "world-cup-statistics/",
+        views.world_cup_statistics,
+        name="world_cup_statistics"
+    ),
+
 ]

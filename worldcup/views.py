@@ -584,3 +584,71 @@ def date_filter(request):
         "world_cups": world_cups,
         "cities": cities,
     })
+
+def world_cup_statistics(request):
+    world_cups = WorldCup.objects.order_by("year")
+    continents = Continent.objects.order_by("name")
+
+    rows = []
+
+    column_totals = {
+        continent.id: 0
+        for continent in continents
+    }
+
+    grand_total = 0
+
+    for wc in world_cups:
+        row = {
+            "world_cup": wc,
+            "continents": [],
+            "total": 0,
+        }
+
+        wc_countries = Country.objects.filter(
+            Q(games_as_country_1__world_cup=wc) |
+            Q(games_as_country_2__world_cup=wc)
+        ).distinct().select_related("continent").order_by("name")
+
+        for continent in continents:
+            countries = [
+                country
+                for country in wc_countries
+                if country.continent_id == continent.id
+            ]
+
+            count = len(countries)
+            country_names = ", ".join(country.name for country in countries)
+
+            row["continents"].append({
+                "continent": continent,
+                "count": count,
+                "country_names": country_names,
+            })
+
+            row["total"] += count
+            column_totals[continent.id] += count
+
+        grand_total += row["total"]
+        rows.append(row)
+
+    total_row = []
+
+    for continent in continents:
+        total_row.append({
+            "continent": continent,
+            "count": column_totals[continent.id],
+        })
+
+    countries = Country.objects.order_by("name")
+    cities = City.objects.select_related("country").order_by("name", "country__name")
+
+    return render(request, "worldcup/world_cup_statistics.html", {
+        "rows": rows,
+        "continents": continents,
+        "total_row": total_row,
+        "grand_total": grand_total,
+        "countries": countries,
+        "cities": cities,
+        "world_cups": world_cups,
+    })
