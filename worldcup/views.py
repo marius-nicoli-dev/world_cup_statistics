@@ -485,10 +485,10 @@ def get_country_edition_results(country):
 def team_ranking(request):
     selected_continent_id = request.GET.get("continent")
 
-    countries = Country.objects.select_related("continent").order_by("name")
+    ranking_countries = Country.objects.select_related("continent").order_by("name")
 
     if selected_continent_id:
-        countries = countries.filter(continent_id=selected_continent_id)
+        ranking_countries = ranking_countries.filter(continent_id=selected_continent_id)
 
     result_keys = [
         "winner",
@@ -506,7 +506,7 @@ def team_ranking(request):
 
     ranking = []
 
-    for country in countries:
+    for country in ranking_countries:
         counts = {key: 0 for key in result_keys}
         years = {key: [] for key in result_keys}
 
@@ -519,12 +519,52 @@ def team_ranking(request):
                 counts[result] += 1
                 years[result].append(item["world_cup"].year)
 
+        stats = {
+            "played": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "goals_for": 0,
+            "goals_against": 0,
+        }
+
+        games = Game.objects.filter(
+            Q(country_1=country) | Q(country_2=country)
+        )
+
+        for game in games:
+            if not game.goals_country_1.isdigit() or not game.goals_country_2.isdigit():
+                continue
+
+            goals1 = int(game.goals_country_1)
+            goals2 = int(game.goals_country_2)
+
+            stats["played"] += 1
+
+            if game.country_1_id == country.id:
+                goals_for = goals1
+                goals_against = goals2
+            else:
+                goals_for = goals2
+                goals_against = goals1
+
+            stats["goals_for"] += goals_for
+            stats["goals_against"] += goals_against
+
+            if goals_for > goals_against:
+                stats["wins"] += 1
+            elif goals_for == goals_against:
+                stats["draws"] += 1
+            else:
+                stats["losses"] += 1
+
         ranking.append({
             "country": country,
             "counts": counts,
             "total": len(edition_results),
             "years": years,
             "total_years": [item["world_cup"].year for item in edition_results],
+            "stats": stats,
         })
 
     ranking.sort(
@@ -548,6 +588,7 @@ def team_ranking(request):
     countries = Country.objects.order_by("name")
     cities = City.objects.select_related("country").order_by("name", "country__name")
     world_cups = WorldCup.objects.order_by("year")
+
     return render(request, "worldcup/team_ranking.html", {
         "ranking": ranking,
         "continents": continents,

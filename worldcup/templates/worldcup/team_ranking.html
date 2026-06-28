@@ -2,6 +2,43 @@
 <html>
 <head>
     <title>Team Ranking</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 4px 6px;
+        }
+
+        th {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td.numeric {
+            text-align: center;
+            width: 55px;
+            white-space: nowrap;
+        }
+
+        th.numeric {
+            text-align: center;
+            width: 55px;
+            white-space: normal;
+            line-height: 1.1;
+        }
+
+        td.country {
+            white-space: nowrap;
+        }
+
+        td.continent {
+            white-space: nowrap;
+        }
+    </style>
+
 </head>
 
 <script>
@@ -150,49 +187,62 @@
                 <th>Pos</th>
                 <th>Country</th>
                 <th>Continent</th>
-                <th>Winner</th>
-                <th>Last 2</th>
-                <th>Last 3-4</th>
-                <th>Last 4</th>
-                <th>Last 8</th>
-                <th>Last 12</th>
-                <th>Last 13</th>
-                <th>Last 16</th>
-                <th>Last 24</th>
-                <th>Last 32</th>
-                <th>Last 48</th>
-                <th>Total</th>
+                <th class="numeric">Winner</th>
+                <th class="numeric">Last<br>2</th>
+                <th class="numeric">Last<br>3-4</th>
+                <th class="numeric">Last<br>4</th>
+                <th class="numeric">Last<br>8</th>
+                <th class="numeric">Last<br>12</th>
+                <th class="numeric">Last<br>13</th>
+                <th class="numeric">Last<br>16</th>
+                <th class="numeric">Last<br>24</th>
+                <th class="numeric">Last<br>32</th>
+                <th class="numeric">Last<br>48</th>
+                <th class="numeric">Total</th>
+                <th class="numeric">Played</th>
+                <th class="numeric">Wins</th>
+                <th class="numeric">Draws</th>
+                <th class="numeric">Losses</th>
+                <th class="numeric">Goals<br>For</th>
+                <th class="numeric">Goals<br>Against</th>
             </tr>
         </thead>
         <tbody>
             {% for row in ranking %}
             <tr>
-                <td>{{ forloop.counter }}</td>
+                <td class="numeric">{{ forloop.counter }}</td>
 
-                <td>
+                <td class="country">
                     <a href="{% url 'country_detail' row.country.id %}">
                         {{ row.country.name }}
                     </a>
                 </td>
 
-                <td>
+                <td class="continent">
                     <a href="{% url 'continent_detail' row.country.continent.id %}">
                         {{ row.country.continent.name }}
                     </a>
                 </td>
 
-                <td title="{{ row.years.winner|join:', ' }}">{% if row.counts.winner %}{{ row.counts.winner }}{% endif %}</td>
-                <td title="{{ row.years.last_2|join:', ' }}">{% if row.counts.last_2 %}{{ row.counts.last_2 }}{% endif %}</td>
-                <td title="{{ row.years.last_3_4|join:', ' }}">{% if row.counts.last_3_4 %}{{ row.counts.last_3_4 }}{% endif %}</td>
-                <td title="{{ row.years.last_4|join:', ' }}">{% if row.counts.last_4 %}{{ row.counts.last_4 }}{% endif %}</td>
-                <td title="{{ row.years.last_8|join:', ' }}">{% if row.counts.last_8 %}{{ row.counts.last_8 }}{% endif %}</td>
-                <td title="{{ row.years.last_12|join:', ' }}">{% if row.counts.last_12 %}{{ row.counts.last_12 }}{% endif %}</td>
-                <td title="{{ row.years.last_13|join:', ' }}">{% if row.counts.last_13 %}{{ row.counts.last_13 }}{% endif %}</td>
-                <td title="{{ row.years.last_16|join:', ' }}">{% if row.counts.last_16 %}{{ row.counts.last_16 }}{% endif %}</td>
-                <td title="{{ row.years.last_24|join:', ' }}">{% if row.counts.last_24 %}{{ row.counts.last_24 }}{% endif %}</td>
-                <td title="{{ row.years.last_32|join:', ' }}">{% if row.counts.last_32 %}{{ row.counts.last_32 }}{% endif %}</td>
-                <td title="{{ row.years.last_48|join:', ' }}">{% if row.counts.last_48 %}{{ row.counts.last_48 }}{% endif %}</td>
-                <td title="{{ row.total_years|join:', ' }}">{{ row.total }}</td>
+                <td class="numeric" title="{{ row.years.winner|join:', ' }}">{% if row.counts.winner %}{{ row.counts.winner }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_2|join:', ' }}">{% if row.counts.last_2 %}{{ row.counts.last_2 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_3_4|join:', ' }}">{% if row.counts.last_3_4 %}{{ row.counts.last_3_4 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_4|join:', ' }}">{% if row.counts.last_4 %}{{ row.counts.last_4 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_8|join:', ' }}">{% if row.counts.last_8 %}{{ row.counts.last_8 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_12|join:', ' }}">{% if row.counts.last_12 %}{{ row.counts.last_12 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_13|join:', ' }}">{% if row.counts.last_13 %}{{ row.counts.last_13 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_16|join:', ' }}">{% if row.counts.last_16 %}{{ row.counts.last_16 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_24|join:', ' }}">{% if row.counts.last_24 %}{{ row.counts.last_24 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_32|join:', ' }}">{% if row.counts.last_32 %}{{ row.counts.last_32 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.years.last_48|join:', ' }}">{% if row.counts.last_48 %}{{ row.counts.last_48 }}{% endif %}</td>
+                <td class="numeric" title="{{ row.total_years|join:', ' }}">{{ row.total }}</td>
+                <td class="numeric">{{ row.stats.played }}</td>
+                <td class="numeric">{{ row.stats.wins }}</td>
+                <td class="numeric">{{ row.stats.draws }}</td>
+                <td class="numeric">{{ row.stats.losses }}</td>
+                <td class="numeric">{{ row.stats.goals_for }}</td>
+                <td class="numeric">{{ row.stats.goals_against }}</td>
+
             </tr>
             {% endfor %}
         </tbody>
