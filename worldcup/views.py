@@ -62,30 +62,46 @@ def games_filter(request):
 def country_detail(request, country_id, result_type=None):
     country = Country.objects.get(id=country_id)
 
-    games = Game.objects.select_related(
-        "country_1",
-        "country_2",
-        "home_city",
-        "home_country",
-        "world_cup"
-    ).filter(
-        country_1=country
-    ) | Game.objects.select_related(
-        "country_1",
-        "country_2",
-        "home_city",
-        "home_country",
-        "world_cup"
-    ).filter(
-        country_2=country
-    )
+    opponent_country_id = request.GET.get("opponent_country")
+    opponent_continent_id = request.GET.get("opponent_continent")
 
-    games = games.order_by("date", "id")
+    opponent_country = None
+    opponent_continent = None
+
+    if opponent_country_id:
+        opponent_country = Country.objects.get(id=opponent_country_id)
+
+    if opponent_continent_id:
+        opponent_continent = Continent.objects.get(id=opponent_continent_id)
+
+    all_country_games = Game.objects.select_related(
+        "country_1",
+        "country_2",
+        "home_city",
+        "home_country",
+        "world_cup",
+    ).filter(
+        Q(country_1=country) | Q(country_2=country)
+    ).order_by("date", "id")
+
+    games = all_country_games
+
+    if opponent_country:
+        games = all_country_games.filter(
+            Q(country_1=country, country_2=opponent_country) |
+            Q(country_1=opponent_country, country_2=country)
+        )
+
+    elif opponent_continent:
+        games = all_country_games.filter(
+            Q(country_1=country, country_2__continent=opponent_continent) |
+            Q(country_2=country, country_1__continent=opponent_continent)
+        )
 
     participations = (
-        games.values_list("world_cup__year", flat=True)
-            .distinct()
-            .order_by("world_cup__year")
+        all_country_games.values_list("world_cup__year", flat=True)
+        .distinct()
+        .order_by("world_cup__year")
     )
 
     participated_world_cups = WorldCup.objects.filter(
@@ -95,10 +111,6 @@ def country_detail(request, country_id, result_type=None):
     participation_count = participated_world_cups.count()
 
     edition_stats = []
-
-    all_country_games = Game.objects.filter(
-        Q(country_1=country) | Q(country_2=country)
-    ).select_related("world_cup").order_by("date", "id")
 
     for wc in participated_world_cups:
         last_game = (
@@ -159,32 +171,32 @@ def country_detail(request, country_id, result_type=None):
         else:
             stats["losses"] += 1
 
-    filtered_games = []
-
-    for game in games:
-        if not game.goals_country_1.isdigit() or not game.goals_country_2.isdigit():
-            continue
-
-        goals_1 = int(game.goals_country_1)
-        goals_2 = int(game.goals_country_2)
-
-        if game.country_1_id == country.id:
-            goals_for = goals_1
-            goals_against = goals_2
-        else:
-            goals_for = goals_2
-            goals_against = goals_1
-
-        if result_type == "wins" and goals_for > goals_against:
-            filtered_games.append(game)
-
-        elif result_type == "draws" and goals_for == goals_against:
-            filtered_games.append(game)
-
-        elif result_type == "losses" and goals_for < goals_against:
-            filtered_games.append(game)
-
     if result_type in ["wins", "draws", "losses"]:
+        filtered_games = []
+
+        for game in games:
+            if not game.goals_country_1.isdigit() or not game.goals_country_2.isdigit():
+                continue
+
+            goals_1 = int(game.goals_country_1)
+            goals_2 = int(game.goals_country_2)
+
+            if game.country_1_id == country.id:
+                goals_for = goals_1
+                goals_against = goals_2
+            else:
+                goals_for = goals_2
+                goals_against = goals_1
+
+            if result_type == "wins" and goals_for > goals_against:
+                filtered_games.append(game)
+
+            elif result_type == "draws" and goals_for == goals_against:
+                filtered_games.append(game)
+
+            elif result_type == "losses" and goals_for < goals_against:
+                filtered_games.append(game)
+
         games = filtered_games
 
     countries = Country.objects.order_by("name")
@@ -196,15 +208,16 @@ def country_detail(request, country_id, result_type=None):
         "country": country,
         "games": games,
         "participation_count": participation_count,
-        "participated_world_cups": world_cups,
+        "participated_world_cups": participated_world_cups,
         "stats": stats,
         "result_type": result_type,
         "countries": countries,
         "continents": continents,
-        "participated_world_cups": participated_world_cups,
         "world_cups": world_cups,
         "cities": cities,
         "edition_stats": edition_stats,
+        "opponent_country": opponent_country,
+        "opponent_continent": opponent_continent,
     })
 
 def continent_detail(request, continent_id, opponent_continent_id=None, result_type=None):

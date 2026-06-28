@@ -41,6 +41,25 @@
             window.location.href =
                 "/worldcup/team-ranking/?continent=" + select.value;
     }
+
+    function goToOpponent(select) {
+        if (!select.value) {
+            window.location.href = "/worldcup/country/{{ country.id }}/";
+            return;
+        }
+
+        if (select.value.startsWith("country-")) {
+            const id = select.value.replace("country-", "");
+            window.location.href = "/worldcup/country/{{ country.id }}/?opponent_country=" + id;
+        }
+
+        if (select.value.startsWith("continent-")) {
+            const id = select.value.replace("continent-", "");
+            window.location.href = "/worldcup/country/{{ country.id }}/?opponent_continent=" + id;
+        }
+    }
+
+
 </script>
 <body>
     <h1>
@@ -200,15 +219,53 @@
         </tbody>
     </table>
 
+    <br/>
+
+    <form onsubmit="return false;">
+        <label for="opponent-select">
+            Select opponent:
+        </label>
+
+        <select id="opponent-select" onchange="goToOpponent(this)">
+            <option value="">---</option>
+
+            <optgroup label="Continents">
+                {% for c in continents %}
+                    <option value="continent-{{ c.id }}"
+                        {% if opponent_continent and c.id == opponent_continent.id %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ c.name }}
+                    </option>
+                {% endfor %}
+            </optgroup>
+
+            <optgroup label="Countries">
+                {% for c in countries %}
+                    {% if c.id != country.id %}
+                        <option value="country-{{ c.id }}"
+                            {% if opponent_country and c.id == opponent_country.id %}
+                                selected
+                            {% endif %}
+                        >
+                            {{ c.name }}
+                        </option>
+                    {% endif %}
+                {% endfor %}
+            </optgroup>
+        </select>
+    </form>
+
     <h3>Statistics</h3>
 
 	<ul>
 	    <li>
 	        Matches played:
         	{% if result_type %}
-	            <a href="{% url 'country_detail' country.id %}">
-        	        {{ stats.played }}
-	            </a>
+	            <a href="{% url 'country_detail' country.id %}{% if opponent_country %}?opponent_country={{ opponent_country.id }}{% elif opponent_continent %}?opponent_continent={{ opponent_continent.id }}{% endif %}">
+                    {{ stats.played }}
+                </a>
         	{% else %}
 	            {{ stats.played }}
         	{% endif %}
@@ -216,9 +273,9 @@
 	    <li>
 	        Wins:
         	{% if stats.wins > 0 %}
-	            <a href="{% url 'country_detail_filtered' country.id 'wins' %}">
-        	        {{ stats.wins }}
-	            </a>
+	            <a href="{% url 'country_detail_filtered' country.id 'wins' %}{% if opponent_country %}?opponent_country={{ opponent_country.id }}{% elif opponent_continent %}?opponent_continent={{ opponent_continent.id }}{% endif %}">
+                    {{ stats.wins }}
+                </a>
         	{% else %}
 	            {{ stats.wins }}
         	{% endif %}
@@ -227,9 +284,9 @@
     	<li>
 	        Draws:
         	{% if stats.draws > 0 %}
-	            <a href="{% url 'country_detail_filtered' country.id 'draws' %}">
-        	        {{ stats.draws }}
-	            </a>
+	            <a href="{% url 'country_detail_filtered' country.id 'draws' %}{% if opponent_country %}?opponent_country={{ opponent_country.id }}{% elif opponent_continent %}?opponent_continent={{ opponent_continent.id }}{% endif %}">
+                    {{ stats.draws }}
+                </a>
         	{% else %}
 	            {{ stats.draws }}
         	{% endif %}
@@ -238,9 +295,9 @@
 	<li>
 	        Losses:
         	{% if stats.losses > 0 %}
-	            <a href="{% url 'country_detail_filtered' country.id 'losses' %}">
-        	        {{ stats.losses }}
-	            </a>
+	            <a href="{% url 'country_detail_filtered' country.id 'losses' %}{% if opponent_country %}?opponent_country={{ opponent_country.id }}{% elif opponent_continent %}?opponent_continent={{ opponent_continent.id }}{% endif %}">
+                    {{ stats.losses }}
+                </a>
         	{% else %}
 	            {{ stats.losses }}
         	{% endif %}
@@ -252,6 +309,12 @@
     <p>
         <a href="{% url 'games_filter' %}">Back to filter page</a>
     </p>
+
+    {% if opponent_country %}
+        <h3>Matches against {{ opponent_country.name }}</h3>
+    {% elif opponent_continent %}
+        <h3>Matches against teams from {{ opponent_continent.name }}</h3>
+    {% endif %}
 
     <table border="1" cellpadding="5" cellspacing="0">
         <thead>
